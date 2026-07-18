@@ -5,10 +5,10 @@ import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Coaching | The Power In The Pause®',
+  title: 'Coaching | Power In The Pause®',
   description: 'One-to-one coaching and The Pause to Power Pathway®, a rigorous, creative approach to leading your life from a steadier place.',
   openGraph: {
-    title: 'Coaching | The Power In The Pause®',
+    title: 'Coaching | Power In The Pause®',
     description: 'One-to-one coaching and The Pause to Power Pathway®, a rigorous, creative approach to leading your life from a steadier place.',
   },
 };

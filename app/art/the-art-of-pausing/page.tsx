@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'The Art of Pausing® | The Power In The Pause®',
+  title: 'The Art of Pausing® | Power In The Pause®',
   description: 'A creative alternative to meditation and journalling. The Art of Pausing® is a drawing practice and iPhone app for everyday life.',
   openGraph: {
-    title: 'The Art of Pausing® | The Power In The Pause®',
+    title: 'The Art of Pausing® | Power In The Pause®',
     description: 'A creative alternative to meditation and journalling. The Art of Pausing® is a drawing practice and iPhone app for everyday life.',
   },
 };
@@ -47,7 +47,7 @@ export default function ArtOfPausing() {
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p><strong>The Spiral Shift™:</strong> five minutes. A short guided drawing experience to release mental noise and come back to yourself. This is where everyone starts, and it's free.</p>
           <p><strong>The Pause Portal™:</strong> around thirty minutes. The deeper guided practice, for when you have space to go further.</p>
-          <p>Reflections from The Power In The Pause® Activation Deck are woven through the app to guide each sitting.</p>
+          <p>Reflections from Power In The Pause® Activation Deck are woven through the app to guide each sitting.</p>
         </div>
         <div className="mt-8 flex flex-col gap-4">
           <Button href={LINKS.appStore} variant="primary">

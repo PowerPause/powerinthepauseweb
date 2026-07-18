@@ -4,10 +4,10 @@ import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Resources | The Power In The Pause®',
+  title: 'Resources | Power In The Pause®',
   description: 'Free resources and tools for your creative practice.',
   openGraph: {
-    title: 'Resources | The Power In The Pause®',
+    title: 'Resources | Power In The Pause®',
     description: 'Free resources and tools for your creative practice.',
   },
 };

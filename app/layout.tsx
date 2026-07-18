@@ -26,7 +26,7 @@ const pinyon = Pinyon_Script({
 });
 
 export const metadata: Metadata = {
-  title: "The Power In The Pause® | A philosophy for modern life",
+  title: "Power In The Pause® | A philosophy for modern life",
   description: "Pausing is not doing nothing. It's where clarity, creativity and transformation begin.",
 };
 

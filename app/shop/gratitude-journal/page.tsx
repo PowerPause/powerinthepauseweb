@@ -5,11 +5,11 @@ import { Button } from '@/components/ui/Button';
 import { COPY_PLACEHOLDERS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'The Gratitude Journal | The Power In The Pause®',
-  description: 'A quiet page a day. The Power In The Pause® Gratitude Journal, coming soon.',
+  title: 'The Gratitude Journal | Power In The Pause®',
+  description: 'A quiet page a day. Power In The Pause® Gratitude Journal, coming soon.',
   openGraph: {
-    title: 'The Gratitude Journal | The Power In The Pause®',
-    description: 'A quiet page a day. The Power In The Pause® Gratitude Journal, coming soon.',
+    title: 'The Gratitude Journal | Power In The Pause®',
+    description: 'A quiet page a day. Power In The Pause® Gratitude Journal, coming soon.',
   },
 };
 
@@ -28,7 +28,7 @@ export default function GratitudeJournal() {
       </div>
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">The Power In The Pause® Gratitude Journal</h1>
+        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">Power In The Pause® Gratitude Journal</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>A quiet page a day.</p>

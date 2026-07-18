@@ -3,10 +3,10 @@ import ContactForm from '@/components/ContactForm';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Contact â€” The Power In The PauseÂ®',
+  title: 'Contact | Power In The Pause®',
   description: 'Get in touch. I read everything.',
   openGraph: {
-    title: 'Contact â€” The Power In The PauseÂ®',
+    title: 'Contact | Power In The Pause®',
     description: 'Get in touch. I read everything.',
   },
 };
@@ -20,7 +20,7 @@ export default function Contact() {
             Contact
           </h1>
           <p className='font-sans text-lg text-navy/70 max-w-65ch leading-relaxed'>
-            Whether you have a question about the work, the app, coaching, or a piece of art â€” write to me. I read everything.
+            Whether you have a question about the work, the app, coaching, or a piece of art, write to me. I read everything.
           </p>
         </div>
 

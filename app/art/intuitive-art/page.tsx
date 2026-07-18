@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Intuitive Art | The Power In The Pause®',
+  title: 'Intuitive Art | Power In The Pause®',
   description: 'Original paintings and prints by Katie Cooper. Intuitive art practice where attention and colour meet.',
   openGraph: {
-    title: 'Intuitive Art | The Power In The Pause®',
+    title: 'Intuitive Art | Power In The Pause®',
     description: 'Original paintings and prints by Katie Cooper. Intuitive art practice where attention and colour meet.',
   },
 };

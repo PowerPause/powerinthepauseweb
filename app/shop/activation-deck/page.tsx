@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'The Activation Deck | The Power In The Pause®',
+  title: 'The Activation Deck | Power In The Pause®',
   description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
   openGraph: {
-    title: 'The Activation Deck | The Power In The Pause®',
+    title: 'The Activation Deck | Power In The Pause®',
     description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
   },
 };
@@ -28,7 +28,7 @@ export default function ActivationDeck() {
       </div>
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">The Power In The Pause® Activation Deck</h1>
+        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">Power In The Pause® Activation Deck</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>Forty-four reflection cards to bring the pause into your hands.</p>

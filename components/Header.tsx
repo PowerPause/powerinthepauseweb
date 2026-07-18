@@ -115,7 +115,7 @@ export function Header() {
           >
             <Image
               src="/images/pause-gold-circle.png"
-              alt="The Power In The Pause®"
+              alt="Power In The Pause®"
               width={60}
               height={60}
               className="h-12 md:h-14 w-auto"
