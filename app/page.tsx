@@ -21,10 +21,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center bg-cream px-6 text-center">
         <ScrollReveal>
-          <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light text-navy mb-8 leading-tight">
-            <span className="text-gold">Power</span> In The{' '}
-            <span className="font-script text-6xl md:text-7xl lg:text-8xl text-gold">Pause</span>
-            <sup className="text-2xl md:text-3xl">®</sup>
+          <h1 className="font-script text-6xl md:text-7xl lg:text-8xl text-gold mb-8 leading-tight">
+            Power In The Pause<sup className="text-3xl md:text-4xl">®</sup>
           </h1>
         </ScrollReveal>
         
