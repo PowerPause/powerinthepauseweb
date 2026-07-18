@@ -56,7 +56,8 @@ export function Header() {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (openDropdown) {
-        const dropdownElement = dropdownRefs.current[openDropdown];
+        const key = mobileMenuOpen ? `mobile-${openDropdown}` : openDropdown;
+        const dropdownElement = dropdownRefs.current[key];
         if (dropdownElement && !dropdownElement.contains(event.target as Node)) {
           setOpenDropdown(null);
         }
@@ -65,7 +66,7 @@ export function Header() {
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [openDropdown]);
+  }, [openDropdown, mobileMenuOpen]);
 
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -228,7 +229,11 @@ export function Header() {
               {navItems.map((item) => (
                 <li key={item.label}>
                   {item.dropdown ? (
-                    <div>
+                    <div
+                      ref={(el) => {
+                        dropdownRefs.current[`mobile-${item.label}`] = el;
+                      }}
+                    >
                       <button
                         onClick={() => handleDropdownToggle(item.label)}
                         onKeyDown={(e) => handleDropdownKeyDown(e, item.label)}
