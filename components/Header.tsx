@@ -114,11 +114,11 @@ export function Header() {
             className="flex items-center hover:opacity-80 transition-opacity focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded"
           >
             <Image
-              src="/images/pause-logo.webp"
+              src="/images/pause-gold-circle.png"
               alt="The Power In The Pause®"
-              width={180}
-              height={180}
-              className="h-16 md:h-20 w-auto"
+              width={60}
+              height={60}
+              className="h-12 md:h-14 w-auto"
               priority
             />
           </Link>
