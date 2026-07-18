@@ -24,9 +24,9 @@ export function Section({
   return (
     <section
       id={id}
-      className={`py-16 md:py-24 px-6 ${backgroundStyles[background]} ${className}`}
+      className={`py-16 md:py-24 px-6 ${backgroundStyles[background]} ${className} relative overflow-visible`}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto relative">
         {children}
       </div>
     </section>
