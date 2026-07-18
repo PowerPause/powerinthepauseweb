@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Jost, Pinyon_Script } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Stars } from "@/components/ui/Stars";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
@@ -39,9 +40,10 @@ export default function RootLayout({
       lang="en-GB"
       className={`${cormorant.variable} ${jost.variable} ${pinyon.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col relative">
+        <Stars count={40} />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 relative z-10">{children}</main>
         <Footer />
       </body>
     </html>

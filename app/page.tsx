@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { Section } from '@/components/ui/Section';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
+import { GoldCircle } from '@/components/ui/GoldCircle';
 import { TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -49,7 +50,8 @@ export default function Home() {
 
       {/* Philosophy Section */}
       <Section background="white" id="philosophy">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center relative">
+          <GoldCircle size={200} position="top-right" className="opacity-20" />
           <ScrollReveal>
             <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-12">
               A different way to live well
@@ -76,7 +78,8 @@ export default function Home() {
 
       {/* Fourth Pillar Section */}
       <Section background="cream">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center relative">
+          <GoldCircle size={180} position="bottom-left" className="opacity-20" />
           <ScrollReveal>
             <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-12">
               Sleep. Movement. Nutrition. Creativity.
@@ -136,7 +139,8 @@ export default function Home() {
 
       {/* Stories Section */}
       <Section background="cream">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto relative">
+          <GoldCircle size={220} position="top-left" className="opacity-15" />
           <ScrollReveal>
             <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-16 text-center">
               In their words

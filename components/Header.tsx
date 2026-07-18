@@ -95,7 +95,7 @@ export function Header() {
           {/* Logo / Brand */}
           <Link
             href="/"
-            className="text-2xl md:text-3xl font-serif font-light tracking-wide text-navy hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded"
+            className="text-3xl md:text-4xl font-script text-navy hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded"
           >
             The Power In The Pause®
           </Link>

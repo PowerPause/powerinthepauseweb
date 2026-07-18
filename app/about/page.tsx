@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { GoldCircle } from '@/components/ui/GoldCircle';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -28,7 +29,9 @@ export default function About() {
       </div>
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">About Katie</h1>
+        <div className="relative">
+          <GoldCircle size={160} position="top-right" className="opacity-25" />
+          <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">About Katie</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>I have spent most of my working life building things, including companies I went on to sell. From the outside it looked like momentum. From the inside it often felt like running.</p>
@@ -38,13 +41,14 @@ export default function About() {
           <p>But this is not about me. The work is what matters, and the work only matters if it is useful to you.</p>
         </div>
 
-        <div className="mt-12 flex flex-col gap-4">
-          <Button href="/resources#spiral-shift" variant="primary">
-            Begin with The Spiral Shift™ (free)
-          </Button>
-          <Button href="/contact" variant="text">
-            Or get in touch
-          </Button>
+          <div className="mt-12 flex flex-col gap-4">
+            <Button href="/resources#spiral-shift" variant="primary">
+              Begin with The Spiral Shift™ (free)
+            </Button>
+            <Button href="/contact" variant="text">
+              Or get in touch
+            </Button>
+          </div>
         </div>
       </Section>
     </>

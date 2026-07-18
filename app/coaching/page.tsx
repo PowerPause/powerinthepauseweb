@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from 'next';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { GoldCircle } from '@/components/ui/GoldCircle';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -26,7 +27,9 @@ export default function Coaching() {
       </Section>
 
       <Section background="cream">
-        <h2 className="text-3xl md:text-4xl font-serif font-light mb-8 max-w-2xl">The Pause to Power Pathway®</h2>
+        <div className="relative">
+          <GoldCircle size={190} position="bottom-right" className="opacity-20" />
+          <h2 className="text-3xl md:text-4xl font-serif font-light mb-8 max-w-2xl">The Pause to Power Pathway®</h2>
         
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>
@@ -46,10 +49,11 @@ export default function Coaching() {
           </p>
         </div>
 
-        <div className="mt-8">
-          <Button href={bookingUrl} variant="primary">
-            Book a call
-          </Button>
+          <div className="mt-8">
+            <Button href={bookingUrl} variant="primary">
+              Book a call
+            </Button>
+          </div>
         </div>
       </Section>
 
