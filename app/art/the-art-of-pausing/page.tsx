@@ -52,7 +52,7 @@ const faqItems = [
     answer: 'No artistic ability is needed. The drawing is a vehicle for attention, not an art lesson.',
   },
   {
-    question: 'What is The Spiral Shift™?',
+    question: 'What is Spiral Shift®?',
     answer: 'A free, five-minute guided drawing experience inside The Art of Pausing® app, and the best first taste of the practice.',
   },
   {
@@ -98,7 +98,7 @@ export default function ArtOfPausing() {
       <Section background="cream">
         <h2 className="text-3xl md:text-4xl font-serif font-light mb-8 max-w-2xl">The practice, in the app</h2>
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
-          <p><strong>The Spiral Shift™:</strong> five minutes. A short guided drawing experience to release mental noise and come back to yourself. This is where everyone starts, and it's free.</p>
+          <p><strong>Spiral Shift®:</strong> five minutes. A short guided drawing experience to release mental noise and come back to yourself. This is where everyone starts, and it's free.</p>
           <p><strong>The Pause Portal™:</strong> around thirty minutes. The deeper guided practice, for when you have space to go further.</p>
           <p>Reflections from Power In The Pause® Activation Deck are woven through the app to guide each sitting.</p>
         </div>
@@ -114,7 +114,7 @@ export default function ArtOfPausing() {
 
       <Section>
         <p className="italic text-navy max-w-2xl">
-          Prefer paper first? Try The Spiral Shift™ free on this site.{' '}
+          Prefer paper first? Try Spiral Shift® free on this site.{' '}
           <Button href="/resources#spiral-shift" variant="text">
             Start now
           </Button>

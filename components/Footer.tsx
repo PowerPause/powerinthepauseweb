@@ -67,6 +67,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/faq"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >

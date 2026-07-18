@@ -21,7 +21,9 @@ export function Faq({ items, heading = 'Frequently asked questions' }: { items: 
 
   return (
     <div className="max-w-2xl">
-      <h2 className="font-serif text-3xl md:text-4xl font-light text-navy mb-8">{heading}</h2>
+      {heading && (
+        <h2 className="font-serif text-3xl md:text-4xl font-light text-navy mb-8">{heading}</h2>
+      )}
       <div className="space-y-6">
         {items.map((item) => (
           <div key={item.question}>

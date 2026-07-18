@@ -57,7 +57,7 @@ export default function EmailCaptureForm() {
           placeholder='hello@example.com'
           disabled={isSubmitting}
           required
-          aria-label='Email address for The Spiral Shift'
+          aria-label='Email address for Spiral Shift®'
           className='w-full px-4 py-2 border border-gold/30 rounded bg-white text-navy placeholder:text-navy/40 focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 disabled:opacity-50'
         />
       </div>

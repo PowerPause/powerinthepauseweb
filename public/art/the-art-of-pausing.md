@@ -11,7 +11,7 @@ People who "can't sit still to meditate" tend to find this works when nothing el
 
 ## The practice, in the app
 
-**The Spiral Shift™:** five minutes. A short guided drawing experience to release mental noise and come back to yourself. This is where everyone starts, and it's free.
+**Spiral Shift®:** five minutes. A short guided drawing experience to release mental noise and come back to yourself. This is where everyone starts, and it's free.
 
 **The Pause Portal™:** around thirty minutes. The deeper guided practice, for when you have space to go further.
 
@@ -25,7 +25,7 @@ A creative alternative to meditation and journalling: a drawing practice and iPh
 **Do I need to know how to draw?**
 No artistic ability is needed. The drawing is a vehicle for attention, not an art lesson.
 
-**What is The Spiral Shift™?**
+**What is Spiral Shift®?**
 A free, five-minute guided drawing experience inside The Art of Pausing® app, and the best first taste of the practice.
 
 **What is The Pause Portal™?**

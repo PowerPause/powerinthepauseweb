@@ -63,7 +63,7 @@ export default function About() {
 
           <div className="mt-12 flex flex-col gap-4">
             <Button href="/resources#spiral-shift" variant="primary">
-              Begin with The Spiral Shift™ (free)
+              Begin with the Spiral Shift® (free)
             </Button>
             <Button href="/contact" variant="text">
               Or get in touch

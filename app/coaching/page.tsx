@@ -59,7 +59,7 @@ const faqItems = [
   },
   {
     question: 'Is there a free way to try this work first?',
-    answer: 'Yes. The Spiral Shift™ is a free, five-minute guided drawing experience available on the Resources page.',
+    answer: 'Yes. Spiral Shift® is a free, five-minute guided drawing experience available on the Resources page.',
   },
 ];
 
@@ -153,7 +153,7 @@ export default function Coaching() {
 
       <Section>
         <p className="text-center italic text-navy max-w-2xl mx-auto">
-          Not sure which is right? Start with The Spiral Shift™ (it's free, it takes five minutes, and it will tell you more than any sales page could).{' '}
+          Not sure which is right? Start with Spiral Shift® (it's free, it takes five minutes, and it will tell you more than any sales page could).{' '}
           <Button href="/resources#spiral-shift" variant="text">
             Start free
           </Button>

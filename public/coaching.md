@@ -39,6 +39,6 @@ Workbooks, journal prompts and guided audio, delivered across four weekly module
 Coaching begins with a conversation. Book a call from the Coaching page, or get in touch via the Contact page.
 
 **Is there a free way to try this work first?**
-Yes. The Spiral Shift™ is a free, five-minute guided drawing experience available on the Resources page.
+Yes. Spiral Shift® is a free, five-minute guided drawing experience available on the Resources page.
 
 Last updated: July 2026

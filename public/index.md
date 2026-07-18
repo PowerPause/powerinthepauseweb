@@ -1,52 +1,40 @@
 <!-- Canonical: https://thepowerinthepause.co.uk/ -->
 # Power In The Pause® | A philosophy for modern life
 
+Pause creates space. Space creates awareness. Awareness creates change.
+
 Pausing is not doing nothing. It's where clarity, creativity and transformation begin.
 
-## A different way to live well
+## A Different Way to Live Well
 
-Most of us know how to keep going. Very few of us know how to stop.
+Most of us know how to keep going. Very few of us are taught the value of pausing. The moments between what happens and what we do next quietly shape the course of our lives. A pause creates the space to notice, to reflect, to choose, to respond rather than react, and to reconnect with what matters most.
 
-Power In The Pause® is a simple idea with a lot underneath it: the moment between what happens and what you do next is where your life is actually made. Learn to find that moment, and everything downstream of it (your decisions, your creativity, your relationships, your work) gets clearer.
+At Power In The Pause®, pausing isn't about stepping away from life. It's about stepping more fully into it. There are many ways to pause: creativity, a walk in nature, a meaningful conversation, journalling, a mindful breath, or simply allowing a moment of stillness. The method matters less than what the pause creates.
 
-This isn't mindfulness rebranded, and it isn't another coaching method. It's a philosophy for modern life, practised through creativity.
+## Creativity Belongs Here Too
 
-## Sleep. Movement. Nutrition. Creativity.
+Sleep, movement and nutrition are recognised as essential foundations of a healthy life. At Power In The Pause®, creativity is the fourth: not for performance, not for perfection, not reserved for artists, but as a way of slowing down, noticing more, and reconnecting with ourselves. That's why creativity sits at the heart of The Art of Pausing®.
 
-We accept that a body needs rest, movement and good food. A mind needs one more thing: a regular creative pause.
+## What People Discover When They Pause
 
-Not talent. Not lessons. Just a few quiet minutes of making marks on paper, with your full attention.
+Whether people experience Power In The Pause® through coaching, creative practice or a retreat, the outcomes are remarkably similar: more space, more clarity, and a steadier way of moving through life.
 
-## The Art of Pausing®
+## The Art of Pausing®: A Different Way to Pause
 
-Our flagship practice, and an iPhone app. Drawing is simply the vehicle. A pen moving slowly across paper gives your attention somewhere to rest, and in that rest, awareness opens. No artistic ability needed.
+The Art of Pausing® is the signature creative practice within Power In The Pause®. Using simple pen-and-paper creative practices, it offers a different way to slow down, create space and reconnect with yourself. No artistic experience is needed. Each creative practice gently guides you from thinking into noticing, helping you process emotions, gain perspective and discover fresh possibilities.
 
-## Meet Katie
+## The Story Behind Power In The Pause®
 
-I built and sold companies before I understood that the missing piece was never more effort. It was the pause. I created this work because I needed it, and then discovered how many other people did too.
+Katie Cooper spent much of her working life building businesses and leading teams, believing the answers would come from doing more. Instead, she discovered that the biggest shifts often begin with something much quieter: a pause. That journey became Power In The Pause®.
 
-## Where to begin
+## Find the Right Place to Begin
 
-- The Spiral Shift™: a free five-minute guided drawing experience, the best first taste of this work.
-- The Art of Pausing®: the app, a daily creative practice in your pocket.
-- Coaching: The Pause to Power Pathway®, one-to-one.
-- Emotional Bioharmonising®: a four-week emotional wellbeing programme.
+- [The Art of Pausing® App](https://thepowerinthepause.co.uk/art/the-art-of-pausing/): a creative wellbeing app that helps you create space, process emotions and reconnect with yourself through simple pen-and-paper creative practices.
+- [Spiral Shift®](https://thepowerinthepause.co.uk/resources/#spiral-shift): a free five-minute creative practice designed to introduce you to the philosophy of Power In The Pause®.
+- [Pause to Power Pathway®](https://thepowerinthepause.co.uk/coaching/): one-to-one mentoring for those looking for personalised support, deeper reflection and lasting change.
+- [Power In The Pause Journal](https://thepowerinthepause.co.uk/shop/gratitude-journal/): a beautifully designed companion for daily reflection, gratitude and intentional living.
+- [The Activation Deck](https://thepowerinthepause.co.uk/shop/activation-deck/): forty-four reflection cards to bring the pause into your hands.
 
-## Frequently asked questions
-
-**What is Power In The Pause®?**
-Power In The Pause® is a philosophy for modern life, practised through creativity. It teaches that the moment between what happens and what you do next is where clarity, creativity and transformation begin.
-
-**Is The Spiral Shift™ free?**
-Yes. The Spiral Shift™ is a free, five-minute guided drawing experience available on the Resources page.
-
-**Do I need artistic ability to take part?**
-No. No artistic ability is needed. The drawing is a vehicle for attention, not an art lesson.
-
-**Who created Power In The Pause®?**
-Power In The Pause® was created by Katie Cooper, a coach and artist who built and sold companies before developing this work.
-
-**What's the difference between coaching and Emotional Bioharmonising®?**
-The Pause to Power Pathway® is Katie Cooper's one-to-one coaching programme. Emotional Bioharmonising® is a four-week, self-paced group programme focused specifically on emotional patterns.
+See the [FAQ page](https://thepowerinthepause.co.uk/faq/) for answers to common questions.
 
 Last updated: July 2026

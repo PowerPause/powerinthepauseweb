@@ -23,16 +23,16 @@ export const metadata: Metadata = {
 
 const faqItems = [
   {
-    question: 'What is The Spiral Shift™?',
+    question: 'What is Spiral Shift®?',
     answer: 'A free, guided five-to-ten minute drawing experience designed to pause, release mental noise and find clarity. No artistic ability needed.',
   },
   {
-    question: 'How do I get The Spiral Shift™?',
+    question: 'How do I get Spiral Shift®?',
     answer: 'Enter your email on this page and it is sent directly.',
   },
   {
     question: 'Is The Art of Pausing® app free?',
-    answer: 'The Spiral Shift™ inside the app is free. The full Art of Pausing® app is available on the App Store.',
+    answer: 'Spiral Shift® inside the app is free. The full Art of Pausing® app is available on the App Store.',
   },
 ];
 

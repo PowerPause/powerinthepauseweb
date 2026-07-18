@@ -35,6 +35,7 @@ const navItems: NavItem[] = [
     ],
   },
   { label: 'Resources', href: '/resources' },
+  { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -185,7 +186,7 @@ export function Header() {
             </ul>
 
             <Button variant="primary" href="/resources#spiral-shift">
-              Begin with The Spiral Shift™
+              Begin with the Spiral Shift®
             </Button>
           </nav>
 
@@ -289,7 +290,7 @@ export function Header() {
                 href="/resources#spiral-shift"
                 className="w-full"
               >
-                Begin with The Spiral Shift™
+                Begin with the Spiral Shift®
               </Button>
             </div>
           </nav>

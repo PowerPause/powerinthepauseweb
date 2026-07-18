@@ -61,7 +61,7 @@ export const TRADEMARKS = {
   artOfPausing: 'The Art of Pausing®',
   coachingProgramme: 'The Pause to Power Pathway®',
   emotionalBioharmonising: 'Emotional Bioharmonising®',
-  spiralShift: 'The Spiral Shift™',
+  spiralShift: 'Spiral Shift®',
   pausePortal: 'The Pause Portal™',
   threeMinuteShift: '3-Minute Shift®',
 } as const;
