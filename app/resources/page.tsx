@@ -1,0 +1,69 @@
+import type { Metadata } from 'next';
+import EmailCaptureForm from '@/components/EmailCaptureForm';
+import { TRADEMARKS } from '@/lib/constants';
+
+export const metadata: Metadata = {
+  title: 'Resources â€” The Power In The PauseÂ®',
+  description: 'Free resources and tools for your creative practice.',
+  openGraph: {
+    title: 'Resources â€” The Power In The PauseÂ®',
+    description: 'Free resources and tools for your creative practice.',
+  },
+};
+
+export default function Resources() {
+  return (
+    <main className='min-h-screen bg-cream py-16 md:py-24'>
+      <div className='mx-auto max-w-2xl px-6'>
+        <div className='mb-20 md:mb-32'>
+          <h1 className='font-serif text-4xl md:text-5xl text-navy mb-6 leading-tight'>
+            Resources
+          </h1>
+          <p className='font-sans text-lg text-navy/70 max-w-65ch leading-relaxed'>
+            Places to start, and things to return to.
+          </p>
+        </div>
+
+        <section
+          id='spiral-shift'
+          className='mb-20 md:mb-32 bg-white px-6 md:px-8 py-8 md:py-12 rounded'
+        >
+          <h2 className='font-serif text-3xl md:text-4xl text-navy mb-4'>
+            {TRADEMARKS.spiralShift}
+          </h2>
+          <p className='font-sans text-navy/70 mb-6 leading-relaxed max-w-65ch'>
+            A free, guided drawing experience. Five to ten minutes with a pen, a piece of paper, and your own attention â€” to pause, release mental noise, and find some clarity. No artistic ability needed.
+          </p>
+          <p className='font-sans text-navy mb-6 font-medium'>
+            Enter your email and it's yours.
+          </p>
+          <EmailCaptureForm />
+        </section>
+
+        <section className='mb-20 md:mb-32 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
+          <h2 className='font-serif text-3xl md:text-4xl text-navy mb-4'>
+            {TRADEMARKS.artOfPausing} app
+          </h2>
+          <p className='font-sans text-navy/70 max-w-65ch leading-relaxed'>
+            The daily practice, on your iPhone.{' '}
+            <a
+              href='/art/the-art-of-pausing'
+              className='text-magenta hover:text-magenta/80 font-medium underline'
+            >
+              Learn more
+            </a>
+          </p>
+        </section>
+
+        <section className='bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
+          <h2 className='font-serif text-3xl md:text-4xl text-navy mb-6'>
+            Notes on pausing
+          </h2>
+          <p className='text-sm text-navy/60 italic bg-cream border-l-4 border-gold/30 px-4 py-3'>
+            [TODO: Confirm whether to launch with articles, a newsletter link, or hold this section for phase two. Layout built either way; content can be empty at launch if needed.]
+          </p>
+        </section>
+      </div>
+    </main>
+  );
+}
