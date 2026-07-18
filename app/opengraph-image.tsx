@@ -30,7 +30,7 @@ export default function Image() {
             lineHeight: 1.2,
           }}
         >
-          The Power In The PauseÂ®
+          Power In The Pause®
         </div>
         <div
           style={{

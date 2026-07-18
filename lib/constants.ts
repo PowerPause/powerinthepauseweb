@@ -57,7 +57,7 @@ export const COPY_PLACEHOLDERS = {
 
 // Registered Trademarks
 export const TRADEMARKS = {
-  masterBrand: 'The Power In The Pause®',
+  masterBrand: 'Power In The Pause®',
   artOfPausing: 'The Art of Pausing®',
   coachingProgramme: 'The Pause to Power Pathway®',
   emotionalBioharmonising: 'Emotional Bioharmonising®',
