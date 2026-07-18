@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Cormorant_Garamond, Jost, Pinyon_Script } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
@@ -37,7 +39,11 @@ export default function RootLayout({
       lang="en-GB"
       className={`${cormorant.variable} ${jost.variable} ${pinyon.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
