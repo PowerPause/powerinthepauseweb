@@ -30,6 +30,8 @@ export function GoldCircle({
         width={size}
         height={size}
         className="w-full h-full"
+        loading="lazy"
+        priority={false}
       />
     </div>
   );
