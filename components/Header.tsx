@@ -1,7 +1,7 @@
 ﻿'use client';
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { Button } from './ui/Button';
 
 interface DropdownItem {
@@ -41,6 +41,7 @@ export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const dropdownRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,6 +51,20 @@ export function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (openDropdown) {
+        const dropdownElement = dropdownRefs.current[openDropdown];
+        if (dropdownElement && !dropdownElement.contains(event.target as Node)) {
+          setOpenDropdown(null);
+        }
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [openDropdown]);
 
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -106,7 +121,12 @@ export function Header() {
               {navItems.map((item) => (
                 <li key={item.label} className="relative group">
                   {item.dropdown ? (
-                    <div className="relative">
+                    <div 
+                      className="relative" 
+                      ref={(el) => {
+                        dropdownRefs.current[item.label] = el;
+                      }}
+                    >
                       <button
                         onClick={() => handleDropdownToggle(item.label)}
                         onKeyDown={(e) => handleDropdownKeyDown(e, item.label)}
