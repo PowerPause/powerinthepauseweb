@@ -3,7 +3,7 @@ export const COLORS = {
   cream: '#FCFBF5',
   white: '#FFFFFF',
   navy: '#1C2A44',
-  gold: '#C6A55C',
+  gold: '#D6B25E',
   magenta: '#D72C8F',
 } as const;
 

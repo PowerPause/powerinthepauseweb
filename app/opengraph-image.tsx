@@ -35,7 +35,7 @@ export default function Image() {
         <div
           style={{
             fontSize: 36,
-            color: '#C6A55C',
+            color: '#D6B25E',
             marginTop: 24,
             fontFamily: 'serif',
             fontWeight: 300,

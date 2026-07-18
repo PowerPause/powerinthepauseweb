@@ -21,13 +21,20 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center bg-cream px-6 text-center">
         <ScrollReveal>
-          <div className="mb-8 max-w-4xl mx-auto">
+          <div className="mb-8 max-w-4xl mx-auto" style={{ 
+            backgroundColor: '#FCFBF5',
+            padding: '2rem',
+            borderRadius: '1rem'
+          }}>
             <Image
               src="/images/power-in-the-pause-gold.png"
               alt="Power In The Pause®"
               width={1600}
               height={400}
               className="w-full h-auto"
+              style={{
+                filter: 'brightness(1.15) saturate(1.1) hue-rotate(5deg)'
+              }}
               priority
             />
           </div>

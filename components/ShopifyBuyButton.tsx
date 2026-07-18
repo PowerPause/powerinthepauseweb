@@ -121,7 +121,7 @@ export default function ShopifyBuyButton({
       <div
         style={{
           backgroundColor: '#FCFBF5',
-          border: '1px solid #C6A55C',
+          border: '1px solid #D6B25E',
           padding: '24px',
           borderRadius: '4px',
           textAlign: 'center',

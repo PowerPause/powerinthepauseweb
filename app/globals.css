@@ -18,7 +18,7 @@
 :root {
   --background: #FCFBF5;
   --foreground: #1C2A44;
-  --accent-gold: #C6A55C;
+  --accent-gold: #D6B25E;
   --accent-magenta: #D72C8F;
   --white: #FFFFFF;
 }
@@ -27,7 +27,7 @@
   --color-cream: #FCFBF5;
   --color-white: #FFFFFF;
   --color-navy: #1C2A44;
-  --color-gold: #C6A55C;
+  --color-gold: #D6B25E;
   --color-magenta: #D72C8F;
 
   --font-sans: var(--font-sans);
