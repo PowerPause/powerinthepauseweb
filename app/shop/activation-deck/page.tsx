@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'The Activation Deck — The Power In The Pause®',
+  title: 'The Activation Deck | The Power In The Pause®',
   description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
   openGraph: {
-    title: 'The Activation Deck — The Power In The Pause®',
+    title: 'The Activation Deck | The Power In The Pause®',
     description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
   },
 };
@@ -22,7 +22,7 @@ export default function ActivationDeck() {
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>Forty-four reflection cards to bring the pause into your hands.</p>
-          <p>Each card carries a short reflection drawn from the four movements of this work — Reset, Release, Rise, Realign. Pull one at the start of the day, before a difficult conversation, or alongside your drawing practice. One card, one pause, one clearer next step.</p>
+          <p>Each card carries a short reflection drawn from the four movements of this work: Reset, Release, Rise, Realign. Pull one at the start of the day, before a difficult conversation, or alongside your drawing practice. One card, one pause, one clearer next step.</p>
           <p>The deck stands alone, and it also accompanies The Art of Pausing® app, where its reflections guide each practice.</p>
           <p className="font-serif text-2xl">£28.00</p>
           <p className="text-sm text-navy/70">ISBN: 9781036973308</p>

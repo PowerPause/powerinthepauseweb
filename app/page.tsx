@@ -37,7 +37,7 @@ export default function Home() {
         <ScrollReveal delay={200}>
           <div className="flex flex-col sm:flex-row gap-6 items-center">
             <Button href="/resources#spiral-shift" variant="primary">
-              Begin with The Spiral Shift™ — it's free
+              Begin with The Spiral Shift™ (it's free)
             </Button>
             <Button href="#philosophy" variant="text">
               Discover the philosophy
@@ -62,7 +62,7 @@ export default function Home() {
               </p>
               
               <p>
-                The Power In The Pause® is a simple idea with a lot underneath it: the moment between what happens and what you do next is where your life is actually made. Learn to find that moment, and everything downstream of it — your decisions, your creativity, your relationships, your work — gets clearer.
+                The Power In The Pause® is a simple idea with a lot underneath it: the moment between what happens and what you do next is where your life is actually made. Learn to find that moment, and everything downstream of it (your decisions, your creativity, your relationships, your work) gets clearer.
               </p>
               
               <p>
@@ -89,7 +89,7 @@ export default function Home() {
               </p>
               
               <p>
-                Not talent. Not lessons. Just a few quiet minutes of making marks on paper, with your full attention. The research on what this does for a busy nervous system is compelling — and the experience of it is better than the research.
+                Not talent. Not lessons. Just a few quiet minutes of making marks on paper, with your full attention. The research on what this does for a busy nervous system is compelling, and the experience of it is better than the research.
               </p>
             </div>
           </ScrollReveal>
@@ -111,7 +111,7 @@ export default function Home() {
                 </p>
                 
                 <p>
-                  Drawing is simply the vehicle. A pen moving slowly across paper gives your attention somewhere to rest — and in that rest, awareness opens. No artistic ability needed. Not art lessons. Not therapy. A creative practice for everyday life.
+                  Drawing is simply the vehicle. A pen moving slowly across paper gives your attention somewhere to rest, and in that rest, awareness opens. No artistic ability needed. Not art lessons. Not therapy. A creative practice for everyday life.
                 </p>
               </div>
               
@@ -140,7 +140,7 @@ export default function Home() {
             <ScrollReveal delay={0}>
               <div className="space-y-4">
                 <p className="font-serif text-lg md:text-xl text-navy italic leading-relaxed">
-                  &ldquo;Katie is caring, genuine, and authentic — always in your corner, guiding you with honesty and support to create deep, life-changing transformation.&rdquo;
+                  &ldquo;Katie is caring, genuine, and authentic, always in your corner, guiding you with honesty and support to create deep, life-changing transformation.&rdquo;
                 </p>
                 <p className="font-sans text-navy">— Beth</p>
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
             <ScrollReveal delay={100}>
               <div className="space-y-4">
                 <p className="font-serif text-lg md:text-xl text-navy italic leading-relaxed">
-                  &ldquo;With Katie, I get both strategy and inner alignment — and I no longer second-guess myself. The results came faster than I imagined.&rdquo;
+                  &ldquo;With Katie, I get both strategy and inner alignment, and I no longer second-guess myself. The results came faster than I imagined.&rdquo;
                 </p>
                 <p className="font-sans text-navy">— Andrea</p>
               </div>
@@ -182,7 +182,7 @@ export default function Home() {
               
               <div className="prose prose-lg max-w-prose space-y-4 text-navy font-sans leading-relaxed">
                 <p>
-                  I built and sold companies before I understood that the missing piece was never more effort. It was the pause. I created this work because I needed it — and then discovered how many other people did too.
+                  I built and sold companies before I understood that the missing piece was never more effort. It was the pause. I created this work because I needed it, and then discovered how many other people did too.
                 </p>
               </div>
               

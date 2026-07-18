@@ -3,10 +3,10 @@ import EmailCaptureForm from '@/components/EmailCaptureForm';
 import { TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Resources â€” The Power In The PauseÂ®',
+  title: 'Resources | The Power In The Pause®',
   description: 'Free resources and tools for your creative practice.',
   openGraph: {
-    title: 'Resources â€” The Power In The PauseÂ®',
+    title: 'Resources | The Power In The Pause®',
     description: 'Free resources and tools for your creative practice.',
   },
 };
@@ -32,7 +32,7 @@ export default function Resources() {
             {TRADEMARKS.spiralShift}
           </h2>
           <p className='font-sans text-navy/70 mb-6 leading-relaxed max-w-65ch'>
-            A free, guided drawing experience. Five to ten minutes with a pen, a piece of paper, and your own attention â€” to pause, release mental noise, and find some clarity. No artistic ability needed.
+            A free, guided drawing experience. Five to ten minutes with a pen, a piece of paper, and your own attention (to pause, release mental noise, and find some clarity). No artistic ability needed.
           </p>
           <p className='font-sans text-navy mb-6 font-medium'>
             Enter your email and it's yours.

@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Intuitive Art — The Power In The Pause®',
+  title: 'Intuitive Art | The Power In The Pause®',
   description: 'Original paintings and prints by Katie Cooper. Intuitive art practice where attention and colour meet.',
   openGraph: {
-    title: 'Intuitive Art — The Power In The Pause®',
+    title: 'Intuitive Art | The Power In The Pause®',
     description: 'Original paintings and prints by Katie Cooper. Intuitive art practice where attention and colour meet.',
   },
 };
@@ -23,7 +23,7 @@ export default function IntuitivArt() {
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>Before this was a philosophy, it was a painting practice.</p>
-          <p>I paint intuitively — no plan, no reference, just attention and colour, following what wants to emerge. It's the same pause this whole body of work is built on, in its purest form. Every method I teach began at this easel.</p>
+          <p>I paint intuitively (no plan, no reference, just attention and colour, following what wants to emerge). It's the same pause this whole body of work is built on, in its purest form. Every method I teach began at this easel.</p>
           <p>Original paintings and prints are available in my gallery.</p>
         </div>
 

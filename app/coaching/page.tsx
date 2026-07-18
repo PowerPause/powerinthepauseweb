@@ -4,11 +4,11 @@ import { Button } from '@/components/ui/Button';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Coaching — The Power In The Pause®',
-  description: 'One-to-one coaching and The Pause to Power Pathway® — a rigorous, creative approach to leading your life from a steadier place.',
+  title: 'Coaching | The Power In The Pause®',
+  description: 'One-to-one coaching and The Pause to Power Pathway®, a rigorous, creative approach to leading your life from a steadier place.',
   openGraph: {
-    title: 'Coaching — The Power In The Pause®',
-    description: 'One-to-one coaching and The Pause to Power Pathway® — a rigorous, creative approach to leading your life from a steadier place.',
+    title: 'Coaching | The Power In The Pause®',
+    description: 'One-to-one coaching and The Pause to Power Pathway®, a rigorous, creative approach to leading your life from a steadier place.',
   },
 };
 
@@ -62,25 +62,25 @@ export default function Coaching() {
           </p>
 
           <p>
-            You've probably tried the usual things — journalling, meditating, thinking positive. Useful, until stress arrives and old patterns take over. This programme works at the level underneath: how your emotions actually move, and how to work with them rather than against them.
+            You've probably tried the usual things (journalling, meditating, thinking positive). Useful, until stress arrives and old patterns take over. This programme works at the level underneath: how your emotions actually move, and how to work with them rather than against them.
           </p>
 
           <div className="space-y-4 mt-8">
             <div>
-              <h3 className="font-serif font-medium mb-2">Week 1 — Reset</h3>
+              <h3 className="font-serif font-medium mb-2">Week 1: Reset</h3>
               <p>Understand your emotional foundation and learn the 3-Minute Shift®, a simple practice for coming back to balance anywhere.</p>
             </div>
             <div>
-              <h3 className="font-serif font-medium mb-2">Week 2 — Release</h3>
+              <h3 className="font-serif font-medium mb-2">Week 2: Release</h3>
               <p>Identify and let go of the patterns that drain you.</p>
             </div>
             <div>
-              <h3 className="font-serif font-medium mb-2">Week 3 — Rise</h3>
+              <h3 className="font-serif font-medium mb-2">Week 3: Rise</h3>
               <p>Build a daily rhythm that keeps you steady for longer than a good week.</p>
             </div>
             <div>
-              <h3 className="font-serif font-medium mb-2">Week 4 — Realign</h3>
-              <p>Put the new rhythm to work in your real life — decisions, relationships, creative work.</p>
+              <h3 className="font-serif font-medium mb-2">Week 4: Realign</h3>
+              <p>Put the new rhythm to work in your real life (decisions, relationships, creative work).</p>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ export default function Coaching() {
 
       <Section>
         <p className="text-center italic text-navy max-w-2xl mx-auto">
-          Not sure which is right? Start with The Spiral Shift™ — it's free, it takes five minutes, and it will tell you more than any sales page could.{' '}
+          Not sure which is right? Start with The Spiral Shift™ (it's free, it takes five minutes, and it will tell you more than any sales page could).{' '}
           <Button href="/resources#spiral-shift" variant="text">
             Start free
           </Button>
