@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button';
 import { Section } from '@/components/ui/Section';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
+import { HandwrittenLogo } from '@/components/ui/HandwrittenLogo';
 import { TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -21,9 +22,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center bg-cream px-6 text-center">
         <ScrollReveal>
-          <h1 className="font-script text-6xl md:text-7xl lg:text-8xl text-gold mb-8 leading-tight">
-            Power In The Pause<sup className="text-3xl md:text-4xl">®</sup>
-          </h1>
+          <div className="mb-8">
+            <HandwrittenLogo />
+          </div>
         </ScrollReveal>
         
         <ScrollReveal delay={100}>
