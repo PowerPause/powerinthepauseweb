@@ -1,0 +1,15 @@
+{
+  "spec": "my-app-pocket-phase-1.spec.md",
+  "taskGroups": [
+    {
+      "id": "TG-01",
+      "title": "Authentication shell",
+      "startedAt": "2026-07-10T09:00:00Z",
+      "criteria": [
+        { "id": "AUTH-C1", "text": "When an unauthenticated user requests any page, the system shall redirect to sign-in.", "status": "FAIL", "evidence": [] },
+        { "id": "AUTH-C2", "text": "When a user lacking Permissions.UserAdmin opens /admin/users, the system shall render the access-denied state.", "status": "PASS", "evidence": ["AUTH-C2-access-denied.png", "AUTH-C2-authz.testresults.txt"] },
+        { "id": "AUTH-C3", "text": "When a document is uploaded, the custom Document Intelligence model shall extract issuer fields at >=0.8 confidence.", "status": "BLOCKED", "evidence": [], "disposition": "Blocked on client-supplied labelled sample set (open item O8); prebuilt-model fallback shipped and evidenced under AUTH-C2 pattern; revisit at phase exit." }
+      ]
+    }
+  ]
+}
