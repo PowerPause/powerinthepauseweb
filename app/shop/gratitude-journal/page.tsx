@@ -28,7 +28,7 @@ export default function GratitudeJournal() {
       </div>
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">Power In The Pause® Gratitude Journal</h1>
+        <h1 className="text-5xl md:text-6xl font-serif font-light mb-8 max-w-2xl">Power In The Pause® Gratitude Journal</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>A quiet page a day.</p>

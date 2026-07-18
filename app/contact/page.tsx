@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <main className='min-h-screen bg-cream py-16 md:py-24'>
+    <main className='min-h-screen bg-cream py-12 md:py-16'>
       <div className='mx-auto max-w-2xl px-6'>
-        <div className='mb-12 md:mb-16'>
+        <div className='mb-10 md:mb-12'>
           <h1 className='font-serif text-4xl md:text-5xl text-navy mb-6 leading-tight'>
             Contact
           </h1>
@@ -24,7 +24,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className='mb-12 md:mb-16 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
+        <div className='mb-10 md:mb-12 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
           <ContactForm />
         </div>
 

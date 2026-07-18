@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-start pt-20 md:pt-28 bg-cream px-6 text-center">
+      <section className="min-h-[75vh] flex flex-col items-center justify-start pt-16 md:pt-20 pb-12 bg-cream px-6 text-center">
         <ScrollReveal>
           <div className="mb-4 max-w-[39.2rem] mx-auto">
             <Image
@@ -34,7 +34,7 @@ export default function Home() {
         </ScrollReveal>
         
         <ScrollReveal delay={100}>
-          <p className="font-sans text-xl md:text-2xl text-navy max-w-3xl mb-12 leading-relaxed">
+          <p className="font-sans text-xl md:text-2xl text-navy max-w-3xl mb-8 leading-relaxed">
             Pausing is not doing nothing.
             <br />
             It's where clarity, creativity and transformation begin.
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center relative">
           <DecorativeCircles count={6} />
           <ScrollReveal>
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-12">
+            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-8">
               A different way to live well
             </h2>
           </ScrollReveal>
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center relative">
           <DecorativeCircles count={5} />
           <ScrollReveal>
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-12">
+            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-8">
               Sleep. Movement. Nutrition. Creativity.
             </h2>
           </ScrollReveal>
@@ -147,7 +147,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto relative">
           <DecorativeCircles count={8} />
           <ScrollReveal>
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-16 text-center">
+            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-10 text-center">
               In their words
             </h2>
           </ScrollReveal>
@@ -220,7 +220,7 @@ export default function Home() {
       <Section background="cream">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal>
-            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-16 text-center">
+            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-10 text-center">
               Where to begin
             </h2>
           </ScrollReveal>
@@ -286,7 +286,7 @@ export default function Home() {
       </Section>
 
       {/* Closing Line Section */}
-      <Section background="navy" className="py-24 md:py-32">
+      <Section background="navy" className="py-16 md:py-20">
         <ScrollReveal>
           <p className="font-serif text-3xl md:text-4xl font-light text-cream text-center italic">
             Take a breath. You&apos;re in the right place.

@@ -19,7 +19,7 @@ export default function IntuitivArt() {
       <div className="w-full h-96 bg-gradient-to-l from-cream via-gold to-navy" aria-hidden="true" />
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">Intuitive Art</h1>
+        <h1 className="text-5xl md:text-6xl font-serif font-light mb-8 max-w-2xl">Intuitive Art</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>Before this was a philosophy, it was a painting practice.</p>

@@ -31,7 +31,7 @@ export default function About() {
       <Section>
         <div className="relative">
           <DecorativeCircles count={6} />
-          <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">About Katie</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-light mb-8 max-w-2xl">About Katie</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
           <p>I have spent most of my working life building things, including companies I went on to sell. From the outside it looked like momentum. From the inside it often felt like running.</p>
