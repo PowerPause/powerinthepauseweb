@@ -29,7 +29,7 @@ export default function Resources() {
           id='spiral-shift'
           className='mb-20 md:mb-32 bg-white px-6 md:px-8 py-8 md:py-12 rounded relative'
         >
-          <GoldCircle size={140} position="top-right" className="opacity-30" />
+          <GoldCircle size={140} position="top-right" />
           <h2 className='font-serif text-3xl md:text-4xl text-navy mb-4'>
             {TRADEMARKS.spiralShift}
           </h2>

@@ -30,7 +30,7 @@ export default function About() {
 
       <Section>
         <div className="relative">
-          <GoldCircle size={160} position="top-right" className="opacity-25" />
+          <GoldCircle size={160} position="top-right" />
           <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">About Katie</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">

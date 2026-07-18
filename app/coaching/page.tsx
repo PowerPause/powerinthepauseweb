@@ -28,7 +28,7 @@ export default function Coaching() {
 
       <Section background="cream">
         <div className="relative">
-          <GoldCircle size={190} position="bottom-right" className="opacity-20" />
+          <GoldCircle size={190} position="bottom-right" />
           <h2 className="text-3xl md:text-4xl font-serif font-light mb-8 max-w-2xl">The Pause to Power Pathway®</h2>
         
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
