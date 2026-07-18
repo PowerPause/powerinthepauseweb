@@ -22,7 +22,7 @@ export default function GratitudeJournal() {
           alt="The Power In The Pause Gratitude Journal"
           width={1200}
           height={1548}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
           priority
         />
       </div>

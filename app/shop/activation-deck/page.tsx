@@ -22,7 +22,7 @@ export default function ActivationDeck() {
           alt="The Power In The Pause Activation Deck"
           width={768}
           height={1024}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
           priority
         />
       </div>

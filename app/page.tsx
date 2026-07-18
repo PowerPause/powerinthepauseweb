@@ -183,7 +183,7 @@ export default function Home() {
               alt="Katie Cooper, creator of The Power In The Pause"
               width={800}
               height={1000}
-              className="w-full aspect-square rounded-lg object-cover"
+              className="w-full aspect-square rounded-lg object-cover object-top"
             />
           </ScrollReveal>
           

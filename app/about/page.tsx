@@ -22,7 +22,7 @@ export default function About() {
           alt="Katie Cooper"
           width={1200}
           height={1500}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
           priority
         />
       </div>
