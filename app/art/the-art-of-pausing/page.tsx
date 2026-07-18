@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
@@ -23,10 +24,21 @@ export default function ArtOfPausing() {
       </Section>
 
       <Section background="white">
-        <h2 className="text-3xl md:text-4xl font-serif font-light mb-8 max-w-2xl">Drawing, as a way of paying attention</h2>
-        <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
-          <p>The Art of Pausing is not about making art. The drawing is a vehicle, a way to give your attention a single, gentle place to rest. Slow marks on paper. Nothing to get right. No artistic ability needed.</p>
-          <p>People who "can't sit still to meditate" tend to find this works when nothing else has. Your hands are busy, so your mind can settle.</p>
+        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-serif font-light mb-8">Drawing, as a way of paying attention</h2>
+            <div className="prose prose-lg space-y-6 text-navy">
+              <p>The Art of Pausing is not about making art. The drawing is a vehicle, a way to give your attention a single, gentle place to rest. Slow marks on paper. Nothing to get right. No artistic ability needed.</p>
+              <p>People who "can't sit still to meditate" tend to find this works when nothing else has. Your hands are busy, so your mind can settle.</p>
+            </div>
+          </div>
+          <Image
+            src="/images/hands-drawing.jpg"
+            alt="Hands engaged in The Art of Pausing drawing practice"
+            width={731}
+            height={1024}
+            className="w-full rounded-lg"
+          />
         </div>
       </Section>
 

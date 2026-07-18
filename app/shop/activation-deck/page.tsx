@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { LINKS } from '@/lib/constants';
@@ -15,7 +16,16 @@ export const metadata: Metadata = {
 export default function ActivationDeck() {
   return (
     <>
-      <div className="w-full h-96 md:h-[500px] bg-gradient-to-br from-magenta via-gold to-navy" aria-hidden="true" />
+      <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
+        <Image
+          src="/images/spiral-shift-example.jpg"
+          alt="The Power In The Pause Activation Deck"
+          width={768}
+          height={1024}
+          className="w-full h-full object-cover"
+          priority
+        />
+      </div>
 
       <Section>
         <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">The Power In The Pause® Activation Deck</h1>

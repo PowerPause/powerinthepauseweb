@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { Section } from '@/components/ui/Section';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
@@ -122,7 +123,13 @@ export default function Home() {
           </ScrollReveal>
           
           <ScrollReveal delay={100}>
-            <div className="w-full aspect-video bg-gradient-to-br from-cream to-navy rounded-lg" />
+            <Image
+              src="/images/drawing-practice-1.jpg"
+              alt="The Art of Pausing drawing practice with hands and paper"
+              width={1024}
+              height={720}
+              className="w-full aspect-video rounded-lg object-cover"
+            />
           </ScrollReveal>
         </div>
       </Section>
@@ -171,7 +178,13 @@ export default function Home() {
       <Section background="white">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           <ScrollReveal>
-            <div className="w-full aspect-square bg-gradient-to-br from-navy to-cream rounded-lg" />
+            <Image
+              src="/images/katie-portrait.jpg"
+              alt="Katie Cooper, creator of The Power In The Pause"
+              width={800}
+              height={1000}
+              className="w-full aspect-square rounded-lg object-cover"
+            />
           </ScrollReveal>
           
           <ScrollReveal delay={100}>

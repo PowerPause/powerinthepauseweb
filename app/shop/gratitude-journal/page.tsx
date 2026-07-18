@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { COPY_PLACEHOLDERS } from '@/lib/constants';
@@ -15,7 +16,16 @@ export const metadata: Metadata = {
 export default function GratitudeJournal() {
   return (
     <>
-      <div className="w-full h-96 md:h-[500px] bg-gradient-to-br from-cream via-gold to-navy" aria-hidden="true" />
+      <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
+        <Image
+          src="/images/drawing-practice-2.jpg"
+          alt="The Power In The Pause Gratitude Journal"
+          width={1200}
+          height={1548}
+          className="w-full h-full object-cover"
+          priority
+        />
+      </div>
 
       <Section>
         <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">The Power In The Pause® Gratitude Journal</h1>

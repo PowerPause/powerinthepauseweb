@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
@@ -15,7 +16,16 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <div className="w-full h-96 bg-gradient-to-br from-navy to-cream" aria-hidden="true" />
+      <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
+        <Image
+          src="/images/katie-portrait.jpg"
+          alt="Katie Cooper"
+          width={1200}
+          height={1500}
+          className="w-full h-full object-cover"
+          priority
+        />
+      </div>
 
       <Section>
         <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">About Katie</h1>
