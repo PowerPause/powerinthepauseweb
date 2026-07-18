@@ -1,0 +1,13 @@
+{
+  "mimeTypes": {
+    ".md": "text/markdown"
+  },
+  "routes": [
+    {
+      "route": "/*.md",
+      "headers": {
+        "X-Robots-Tag": "noindex"
+      }
+    }
+  ]
+}

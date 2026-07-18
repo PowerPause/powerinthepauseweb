@@ -1,15 +1,35 @@
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
+import { Faq } from '@/components/ui/Faq';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Contact | Power In The Pause®',
   description: 'Get in touch. I read everything.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/contact/',
+  },
   openGraph: {
     title: 'Contact | Power In The Pause®',
     description: 'Get in touch. I read everything.',
+    url: 'https://thepowerinthepause.co.uk/contact/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
+
+const faqItems = [
+  {
+    question: 'What can I contact Katie about?',
+    answer: 'Questions about the work, the app, coaching, or a piece of art.',
+  },
+  {
+    question: 'Does Katie reply personally?',
+    answer: 'Yes. Katie reads every message personally.',
+  },
+];
 
 export default function Contact() {
   return (
@@ -42,6 +62,11 @@ export default function Contact() {
           ) : (
             <span className='italic text-gold/75'>[TODO: Contact email address]</span>
           )}
+        </div>
+
+        <div className='mt-10 md:mt-12 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
+          <Faq items={faqItems} />
+          <LastUpdated date="July 2026" />
         </div>
       </div>
     </main>

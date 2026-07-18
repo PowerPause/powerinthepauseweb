@@ -2,20 +2,73 @@
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { Faq } from '@/components/ui/Faq';
+import { LastUpdated } from '@/components/ui/LastUpdated';
+import { JsonLd } from '@/components/JsonLd';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'The Art of Pausing® | Power In The Pause®',
   description: 'A creative alternative to meditation and journalling. The Art of Pausing® is a drawing practice and iPhone app for everyday life.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/art/the-art-of-pausing/',
+  },
   openGraph: {
     title: 'The Art of Pausing® | Power In The Pause®',
     description: 'A creative alternative to meditation and journalling. The Art of Pausing® is a drawing practice and iPhone app for everyday life.',
+    url: 'https://thepowerinthepause.co.uk/art/the-art-of-pausing/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
+
+const softwareSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'The Art of Pausing®',
+  applicationCategory: 'LifestyleApplication',
+  operatingSystem: 'iOS',
+  description: 'A creative alternative to meditation and journalling. A drawing practice and iPhone app for everyday life, requiring no artistic ability.',
+  author: {
+    '@type': 'Organization',
+    name: 'Power In The Pause®',
+  },
+  url: 'https://thepowerinthepause.co.uk/art/the-art-of-pausing/',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'GBP',
+  },
+};
+
+const faqItems = [
+  {
+    question: 'What is The Art of Pausing®?',
+    answer: 'A creative alternative to meditation and journalling: a drawing practice and iPhone app for everyday life.',
+  },
+  {
+    question: 'Do I need to know how to draw?',
+    answer: 'No artistic ability is needed. The drawing is a vehicle for attention, not an art lesson.',
+  },
+  {
+    question: 'What is The Spiral Shift™?',
+    answer: 'A free, five-minute guided drawing experience inside The Art of Pausing® app, and the best first taste of the practice.',
+  },
+  {
+    question: 'What is The Pause Portal™?',
+    answer: 'A deeper guided drawing practice of around thirty minutes, for when there is more time to go further.',
+  },
+  {
+    question: 'Where can I get the app?',
+    answer: 'The Art of Pausing® app is available on the App Store, and via theartofpausing.co.uk.',
+  },
+];
 
 export default function ArtOfPausing() {
   return (
     <>
+      <JsonLd data={softwareSchema} />
       <Section>
         <h1 className="text-5xl md:text-6xl font-serif font-light mb-6 max-w-2xl">The Art of Pausing®</h1>
         <p className="text-lg max-w-2xl text-navy">
@@ -66,6 +119,11 @@ export default function ArtOfPausing() {
             Start now
           </Button>
         </p>
+      </Section>
+
+      <Section background="white">
+        <Faq items={faqItems} />
+        <LastUpdated date="July 2026" />
       </Section>
     </>
   );

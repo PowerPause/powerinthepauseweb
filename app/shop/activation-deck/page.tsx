@@ -2,20 +2,50 @@
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { LastUpdated } from '@/components/ui/LastUpdated';
+import { JsonLd } from '@/components/JsonLd';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'The Activation Deck | Power In The Pause®',
   description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/shop/activation-deck/',
+  },
   openGraph: {
     title: 'The Activation Deck | Power In The Pause®',
     description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
+    url: 'https://thepowerinthepause.co.uk/shop/activation-deck/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
+  },
+};
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Power In The Pause® Activation Deck',
+  description: 'Forty-four reflection cards drawn from the four movements of this work: Reset, Release, Rise, Realign.',
+  sku: '9781036973308',
+  gtin13: '9781036973308',
+  brand: {
+    '@type': 'Brand',
+    name: 'Power In The Pause®',
+  },
+  offers: {
+    '@type': 'Offer',
+    price: '28.00',
+    priceCurrency: 'GBP',
+    availability: 'https://schema.org/InStock',
+    url: LINKS.activationDeckProduct,
   },
 };
 
 export default function ActivationDeck() {
   return (
     <>
+      <JsonLd data={productSchema} />
       <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
         <Image
           src="/images/spiral-shift-example.jpg"
@@ -46,6 +76,8 @@ export default function ActivationDeck() {
             </a>
           </p>
         </div>
+
+        <LastUpdated date="July 2026" />
       </Section>
     </>
   );

@@ -2,16 +2,66 @@
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
+import { Faq } from '@/components/ui/Faq';
+import { LastUpdated } from '@/components/ui/LastUpdated';
+import { JsonLd } from '@/components/JsonLd';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Coaching | Power In The Pause®',
   description: 'One-to-one coaching and The Pause to Power Pathway®, a rigorous, creative approach to leading your life from a steadier place.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/coaching/',
+  },
   openGraph: {
     title: 'Coaching | Power In The Pause®',
     description: 'One-to-one coaching and The Pause to Power Pathway®, a rigorous, creative approach to leading your life from a steadier place.',
+    url: 'https://thepowerinthepause.co.uk/coaching/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'The Pause to Power Pathway®',
+  description: 'One-to-one coaching blending practical strategy with emotional patterns, energy, attention and creative practice.',
+  provider: {
+    '@type': 'Organization',
+    name: 'Power In The Pause®',
+    url: 'https://thepowerinthepause.co.uk',
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'United Kingdom',
+  },
+  serviceType: 'Life and business coaching',
+};
+
+const faqItems = [
+  {
+    question: 'What is The Pause to Power Pathway®?',
+    answer: "Katie Cooper's signature one-to-one coaching programme, blending practical strategy with emotional patterns, energy, attention and creative practice.",
+  },
+  {
+    question: 'What is Emotional Bioharmonising®?',
+    answer: 'A four-week, self-paced emotional wellbeing programme with a new module released each week: Reset, Release, Rise, Realign.',
+  },
+  {
+    question: 'What does Emotional Bioharmonising® include?',
+    answer: 'Workbooks, journal prompts and guided audio, delivered across four weekly modules.',
+  },
+  {
+    question: 'How do I start coaching with Katie?',
+    answer: 'Coaching begins with a conversation. Book a call from this page, or get in touch via the Contact page.',
+  },
+  {
+    question: 'Is there a free way to try this work first?',
+    answer: 'Yes. The Spiral Shift™ is a free, five-minute guided drawing experience available on the Resources page.',
+  },
+];
 
 export default function Coaching() {
   const bookingUrl = CONTACT.bookingUrl ? CONTACT.bookingUrl : '/contact';
@@ -19,6 +69,7 @@ export default function Coaching() {
   
   return (
     <>
+      <JsonLd data={serviceSchema} />
       <Section>
         <h1 className="text-5xl md:text-6xl font-serif font-light mb-6 max-w-2xl">Coaching</h1>
         <p className="text-lg max-w-2xl text-navy mb-12">
@@ -107,6 +158,11 @@ export default function Coaching() {
             Start free
           </Button>
         </p>
+      </Section>
+
+      <Section background="cream">
+        <Faq items={faqItems} />
+        <LastUpdated date="July 2026" />
       </Section>
     </>
   );

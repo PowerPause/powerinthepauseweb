@@ -1,0 +1,9 @@
+/* TEAM */
+Company: Power In The Pause®
+Site: https://thepowerinthepause.co.uk
+Contact: https://thepowerinthepause.co.uk/contact/
+Location: United Kingdom
+
+/* TECHNOLOGY */
+Framework: Next.js
+Platform: Azure Static Web Apps

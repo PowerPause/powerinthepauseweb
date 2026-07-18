@@ -1,16 +1,36 @@
 ﻿import type { Metadata } from 'next';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { Faq } from '@/components/ui/Faq';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Intuitive Art | Power In The Pause®',
   description: 'Original paintings and prints by Katie Cooper. Intuitive art practice where attention and colour meet.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/art/intuitive-art/',
+  },
   openGraph: {
     title: 'Intuitive Art | Power In The Pause®',
     description: 'Original paintings and prints by Katie Cooper. Intuitive art practice where attention and colour meet.',
+    url: 'https://thepowerinthepause.co.uk/art/intuitive-art/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
+
+const faqItems = [
+  {
+    question: 'What is intuitive art?',
+    answer: 'Painting with no plan and no reference, following attention and colour to see what wants to emerge. It is the same pause practice this work is built on, in its purest form.',
+  },
+  {
+    question: "Are Katie's paintings and prints for sale?",
+    answer: 'Yes. Original paintings and prints are available in her gallery.',
+  },
+];
 
 export default function IntuitivArt() {
   return (
@@ -32,6 +52,11 @@ export default function IntuitivArt() {
             Visit the gallery
           </Button>
         </div>
+      </Section>
+
+      <Section background="cream">
+        <Faq items={faqItems} />
+        <LastUpdated date="July 2026" />
       </Section>
     </>
   );

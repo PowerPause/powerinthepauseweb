@@ -4,16 +4,48 @@ import { Button } from '@/components/ui/Button';
 import { Section } from '@/components/ui/Section';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
+import { Faq } from '@/components/ui/Faq';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Power In The Pause® | A philosophy for modern life',
   description: "Pausing is not doing nothing. It's where clarity, creativity and transformation begin.",
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/',
+  },
   openGraph: {
     title: 'Power In The Pause® | A philosophy for modern life',
     description: "Pausing is not doing nothing. It's where clarity, creativity and transformation begin.",
+    url: 'https://thepowerinthepause.co.uk/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
+
+const faqItems = [
+  {
+    question: 'What is Power In The Pause®?',
+    answer: "Power In The Pause® is a philosophy for modern life, practised through creativity. It teaches that the moment between what happens and what you do next is where clarity, creativity and transformation begin.",
+  },
+  {
+    question: 'Is The Spiral Shift™ free?',
+    answer: "Yes. The Spiral Shift™ is a free, five-minute guided drawing experience available on the Resources page.",
+  },
+  {
+    question: 'Do I need artistic ability to take part?',
+    answer: 'No. No artistic ability is needed. The drawing is a vehicle for attention, not an art lesson.',
+  },
+  {
+    question: 'Who created Power In The Pause®?',
+    answer: 'Power In The Pause® was created by Katie Cooper, a coach and artist who built and sold companies before developing this work.',
+  },
+  {
+    question: "What's the difference between coaching and Emotional Bioharmonising®?",
+    answer: "The Pause to Power Pathway® is Katie Cooper's one-to-one coaching programme. Emotional Bioharmonising® is a four-week, self-paced group programme focused specifically on emotional patterns.",
+  },
+];
 
 export default function Home() {
   return (
@@ -282,6 +314,14 @@ export default function Home() {
               </div>
             </ScrollReveal>
           </div>
+        </div>
+      </Section>
+
+      {/* FAQ Section */}
+      <Section background="white">
+        <div className="max-w-2xl mx-auto">
+          <Faq items={faqItems} />
+          <LastUpdated date="July 2026" />
         </div>
       </Section>
 

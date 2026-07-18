@@ -1,0 +1,4 @@
+Contact: https://thepowerinthepause.co.uk/contact/
+Preferred-Languages: en
+Canonical: https://thepowerinthepause.co.uk/.well-known/security.txt
+Expires: 2027-07-18T15:26:42Z

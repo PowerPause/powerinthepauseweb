@@ -3,16 +3,36 @@ import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
+import { Faq } from '@/components/ui/Faq';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'About Katie | Power In The Pause®',
   description: 'Katie Cooper is a coach, artist and creator of Power In The Pause®, a philosophy for modern life practised through creativity.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/about/',
+  },
   openGraph: {
     title: 'About Katie | Power In The Pause®',
     description: 'Katie Cooper is a coach, artist and creator of Power In The Pause®, a philosophy for modern life practised through creativity.',
+    url: 'https://thepowerinthepause.co.uk/about/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
+
+const faqItems = [
+  {
+    question: 'Who is Katie Cooper?',
+    answer: 'Katie Cooper is a coach and artist, and the creator of Power In The Pause®. She built and sold companies before developing this work.',
+  },
+  {
+    question: "What is Katie's professional background?",
+    answer: 'Katie is a coach by training and an artist by practice, combining practical coaching methods with an intuitive creative practice.',
+  },
+];
 
 export default function About() {
   return (
@@ -50,6 +70,11 @@ export default function About() {
             </Button>
           </div>
         </div>
+      </Section>
+
+      <Section background="cream">
+        <Faq items={faqItems} />
+        <LastUpdated date="July 2026" />
       </Section>
     </>
   );

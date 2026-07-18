@@ -2,14 +2,22 @@
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { COPY_PLACEHOLDERS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'The Gratitude Journal | Power In The Pause®',
   description: 'A quiet page a day. Power In The Pause® Gratitude Journal, coming soon.',
+  alternates: {
+    canonical: 'https://thepowerinthepause.co.uk/shop/gratitude-journal/',
+  },
   openGraph: {
     title: 'The Gratitude Journal | Power In The Pause®',
     description: 'A quiet page a day. Power In The Pause® Gratitude Journal, coming soon.',
+    url: 'https://thepowerinthepause.co.uk/shop/gratitude-journal/',
+    type: 'website',
+    siteName: 'Power In The Pause®',
+    locale: 'en_GB',
   },
 };
 
@@ -45,6 +53,8 @@ export default function GratitudeJournal() {
         <p className="text-sm text-navy/60 italic mt-6">
           The Gratitude Journal will be added to the shop once product details are finalized.
         </p>
+
+        <LastUpdated date="July 2026" />
       </Section>
     </>
   );
