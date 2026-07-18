@@ -24,16 +24,31 @@ export const metadata: Metadata = {
 
 const testimonials = [
   {
-    quote: 'Katie is caring, genuine, and authentic, always in your corner, guiding you with honesty and support to create deep, life-changing transformation.',
-    name: 'Beth',
-  },
-  {
-    quote: 'With Katie, I get both strategy and inner alignment, and I no longer second-guess myself. The results came faster than I imagined.',
+    quote: "I didn't actually trust that I could do things differently. Now it's like night and day. I have so much more space and so much more time. That's been a direct result of doing the inner work and letting all that stuff go.",
     name: 'Andrea',
+    descriptor: 'Coaching Client',
   },
   {
-    quote: "The very first time we spoke, I thought, 'She just gets me.' I would never have achieved this on my own.",
-    name: 'Fran',
+    quote: 'I thought I just needed new strategies. I had no idea how freeing it would be to uncover and release what was underneath.',
+    name: 'Lucy',
+    descriptor: 'Coaching Client',
+  },
+  {
+    quote: "I noticed resistance to the drawing at first. Thoughts of 'I'm no good at this.' But I kept going and found myself expressing thoughts and feelings through the shapes and lines I created.",
+    descriptor: 'The Art of Pausing® Participant',
+  },
+  {
+    quote: 'I came feeling tense and creatively blocked. I left feeling lighter, with a clearer mind and much calmer inside.',
+    descriptor: 'Retreat Participant',
+  },
+  {
+    quote: 'My brain quietly settled, and I got into a flow.',
+    descriptor: 'Workshop Participant',
+  },
+  {
+    quote: 'I definitely paused, relaxed, cleared my head and came away feeling rested and lighter.',
+    name: 'Terri',
+    descriptor: 'Retreat Participant',
   },
 ];
 

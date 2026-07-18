@@ -1,5 +1,5 @@
 ﻿import type { Metadata } from "next";
-import { Cormorant_Garamond, Jost, Pinyon_Script } from "next/font/google";
+import { Cormorant_Garamond, Jost, Pinyon_Script, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -24,6 +24,14 @@ const pinyon = Pinyon_Script({
   variable: "--font-script",
   subsets: ["latin"],
   weight: "400",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 
@@ -77,7 +85,7 @@ export default function RootLayout({
   return (
     <html
       lang="en-GB"
-      className={`${cormorant.variable} ${jost.variable} ${pinyon.variable} h-full antialiased`}
+      className={`${cormorant.variable} ${jost.variable} ${pinyon.variable} ${playfair.variable} h-full antialiased`}
     >
       <link rel="llms" href="https://thepowerinthepause.co.uk/llms.txt" />
       <body className="min-h-full flex flex-col relative">
