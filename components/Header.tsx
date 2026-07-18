@@ -1,6 +1,7 @@
 ﻿'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
 import { Button } from './ui/Button';
 
@@ -110,9 +111,16 @@ export function Header() {
           {/* Logo / Brand */}
           <Link
             href="/"
-            className="text-3xl md:text-4xl font-script text-navy hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded"
+            className="flex items-center hover:opacity-80 transition-opacity focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded"
           >
-            The Power In The Pause®
+            <Image
+              src="/images/pause-logo.webp"
+              alt="The Power In The Pause®"
+              width={180}
+              height={180}
+              className="h-16 md:h-20 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
