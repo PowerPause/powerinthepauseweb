@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
-interface GoldCircleProps {
+interface PauseSymbolProps {
   size?: number;
   className?: string;
   position?: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right' | 'center';
 }
 
-export function GoldCircle({ 
+export function PauseSymbol({ 
   size = 150, 
   className = '',
   position = 'top-right'
-}: GoldCircleProps) {
+}: PauseSymbolProps) {
   const positionClasses = {
     'top-left': 'top-4 left-4',
     'top-right': 'top-4 right-4',

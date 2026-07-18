@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
-import { GoldCircle } from '@/components/ui/GoldCircle';
+import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export default function About() {
 
       <Section>
         <div className="relative">
-          <GoldCircle size={160} position="top-right" />
+          <DecorativeCircles count={6} />
           <h1 className="text-5xl md:text-6xl font-serif font-light mb-12 max-w-2xl">About Katie</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
