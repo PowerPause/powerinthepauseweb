@@ -60,11 +60,9 @@ export default function Home() {
       <section className="min-h-[75vh] flex flex-col items-center justify-start pt-16 md:pt-20 pb-12 bg-cream px-6 text-center">
         <h1 className="sr-only">Power In The Pause®</h1>
 
-        <ScrollReveal className="w-full">
-          <div className="mb-6 max-w-[39.2rem] mx-auto">
-            <ShimmerWordmark />
-          </div>
-        </ScrollReveal>
+        <div className="mb-6 max-w-[39.2rem] mx-auto w-full">
+          <ShimmerWordmark />
+        </div>
 
         <ScrollReveal delay={100}>
           <div className="font-serif text-2xl md:text-3xl text-navy leading-relaxed max-w-2xl mb-8 space-y-1">
