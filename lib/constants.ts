@@ -42,16 +42,13 @@ export const SHOPIFY = {
 // Contact & Forms (TODO: Update with actual values)
 export const CONTACT = {
   email: '', // TODO: e.g., hello@thepowerinthepause.co.uk
-  bookingUrl: '', // TODO: Coaching booking URL
-  courseEnrolmentUrl: '', // TODO: Emotional Bioharmonising® enrolment URL
+  bookingUrl: '', // TODO: Booking / calendar URL for "Book a Conversation"
   formServiceEndpoint: '', // TODO: Formspree/Web3Forms/Kit endpoint for contact form
   emailCaptureEndpoint: '', // TODO: Kit/ConvertKit endpoint for Spiral Shift
 } as const;
 
 // Copy placeholders (TODO: Get from Katie)
 export const COPY_PLACEHOLDERS = {
-  coachingDuration: '[TODO: confirm duration]',
-  katieCredentials: '[TODO: credentials/accreditations]',
   gratitudeJournalSpecs: '[TODO: price, page count, format]',
 } as const;
 

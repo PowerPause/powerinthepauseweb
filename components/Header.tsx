@@ -19,7 +19,8 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  { label: 'Coaching', href: '/coaching' },
+  { label: 'Work With Katie', href: '/coaching' },
+  { label: 'Retreats', href: '/retreats' },
   {
     label: 'Art',
     dropdown: [
@@ -126,7 +127,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden xl:flex items-center gap-6">
             <ul className="flex items-center gap-6">
               {navItems.map((item) => (
                 <li key={item.label} className="relative group">
@@ -176,7 +177,7 @@ export function Header() {
                   ) : (
                     <Link
                       href={item.href!}
-                      className="text-navy hover:text-gold transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded px-2 py-1"
+                      className="text-navy hover:text-gold transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded px-2 py-1 whitespace-nowrap"
                     >
                       {item.label}
                     </Link>
@@ -185,7 +186,7 @@ export function Header() {
               ))}
             </ul>
 
-            <Button variant="primary" href="/resources#spiral-shift">
+            <Button variant="primary" href="/resources#spiral-shift" className="whitespace-nowrap">
               Begin with the Spiral Shift®
             </Button>
           </nav>
@@ -195,7 +196,7 @@ export function Header() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle mobile menu"
             aria-expanded={mobileMenuOpen}
-            className="lg:hidden text-navy focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded p-2"
+            className="xl:hidden text-navy focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded p-2"
           >
             {mobileMenuOpen ? (
               <svg
@@ -224,7 +225,7 @@ export function Header() {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-0 top-[73px] bg-cream z-40 overflow-y-auto">
+        <div className="xl:hidden fixed inset-0 top-[73px] bg-cream z-40 overflow-y-auto">
           <nav className="px-6 py-8">
             <ul className="space-y-6">
               {navItems.map((item) => (

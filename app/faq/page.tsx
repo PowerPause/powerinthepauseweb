@@ -36,8 +36,8 @@ const faqItems = [
     answer: 'Power In The Pause® was created by Katie Cooper, a coach and artist who built and sold companies before developing this work.',
   },
   {
-    question: "What's the difference between coaching and Emotional Bioharmonising®?",
-    answer: "The Pause to Power Pathway® is Katie Cooper's one-to-one coaching programme. Emotional Bioharmonising® is a four-week, self-paced group programme focused specifically on emotional patterns.",
+    question: 'How do I start working with Katie?',
+    answer: 'It begins with a conversation. Book a call or get in touch via the Work With Katie or Contact pages.',
   },
 ];
 

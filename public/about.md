@@ -39,6 +39,10 @@ Everything I create begins with one belief:
 
 **Meaningful change starts by creating space.**
 
+## My Intuitive Art
+
+Alongside Power In The Pause®, I continue to create intuitive abstract art exploring emotion, movement, energy and possibility. This work is a separate expression of my creative practice and can be viewed through [Katie Cooper Art](https://katiecooperart.com/collections/all).
+
 - [Explore the Ways to Work With Me](https://thepowerinthepause.co.uk/coaching/)
 - [Discover Power In The Pause®](https://thepowerinthepause.co.uk/#philosophy)
 

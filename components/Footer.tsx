@@ -38,7 +38,15 @@ export function Footer() {
                   href="/coaching"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
-                  Coaching
+                  Work With Katie
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/retreats"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  Retreats
                 </Link>
               </li>
               <li>

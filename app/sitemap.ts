@@ -25,6 +25,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: baseUrl + '/retreats/',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
       url: baseUrl + '/art/the-art-of-pausing/',
       lastModified: new Date(),
       changeFrequency: 'monthly',

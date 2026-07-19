@@ -32,7 +32,7 @@ Katie Cooper spent much of her working life building businesses and leading team
 - [The Art of Pausing® App](https://thepowerinthepause.co.uk/art/the-art-of-pausing/): a creative wellbeing app that helps you create space, process emotions and reconnect with yourself through simple pen-and-paper creative practices.
 - [Spiral Shift®](https://thepowerinthepause.co.uk/resources/#spiral-shift): a free five-minute creative practice designed to introduce you to the philosophy of Power In The Pause®.
 - [Pause to Power Pathway®](https://thepowerinthepause.co.uk/coaching/): one-to-one mentoring for those looking for personalised support, deeper reflection and lasting change.
-- [Retreats & Experiences](https://thepowerinthepause.co.uk/coaching/#retreats): creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
+- [Retreats & Experiences](https://thepowerinthepause.co.uk/retreats/): creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
 - [Power In The Pause Journal](https://thepowerinthepause.co.uk/shop/gratitude-journal/): a beautifully designed companion for daily reflection, gratitude and intentional living.
 
 The Activation Deck (forty-four reflection cards) remains available in the [Shop](https://thepowerinthepause.co.uk/shop/activation-deck/).

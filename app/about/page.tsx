@@ -4,6 +4,7 @@ import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { LastUpdated } from '@/components/ui/LastUpdated';
+import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'About Katie Cooper | Power In The Pause®',
@@ -89,6 +90,21 @@ export default function About() {
           <p className="font-serif text-2xl md:text-3xl italic text-navy max-w-2xl my-10">
             Meaningful change starts by creating space.
           </p>
+
+          <div className="bg-white p-8 rounded-lg border border-gold/20 max-w-2xl mb-10">
+            <h2 className="font-serif text-2xl font-light text-navy mb-3">My Intuitive Art</h2>
+            <p className="font-sans text-navy leading-relaxed mb-6">
+              Alongside Power In The Pause®, I continue to create intuitive abstract art exploring emotion, movement, energy and possibility. This work is a separate expression of my creative practice and can be viewed through Katie Cooper Art.
+            </p>
+            <a
+              href={LINKS.artGallery}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full border-2 border-navy text-navy hover:bg-navy hover:text-cream transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2"
+            >
+              Visit Katie Cooper Art
+            </a>
+          </div>
 
           <div className="flex flex-col gap-4 max-w-2xl">
             <Button href="/coaching" variant="primary">

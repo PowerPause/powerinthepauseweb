@@ -26,12 +26,12 @@ const testimonials = [
   {
     quote: "I didn't actually trust that I could do things differently. Now it's like night and day. I have so much more space and so much more time. That's been a direct result of doing the inner work and letting all that stuff go.",
     name: 'Andrea',
-    descriptor: 'Coaching Client',
+    descriptor: 'One-to-one client',
   },
   {
     quote: 'I thought I just needed new strategies. I had no idea how freeing it would be to uncover and release what was underneath.',
     name: 'Lucy',
-    descriptor: 'Coaching Client',
+    descriptor: 'One-to-one client',
   },
   {
     quote: "I noticed resistance to the drawing at first. Thoughts of 'I'm no good at this.' But I kept going and found myself expressing thoughts and feelings through the shapes and lines I created.",
@@ -386,7 +386,7 @@ export default function Home() {
                 <p className="font-sans text-navy leading-relaxed">
                   Creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
                 </p>
-                <Button href="/coaching#retreats" variant="secondary" className="w-full">
+                <Button href="/retreats" variant="secondary" className="w-full">
                   Explore Retreats
                 </Button>
               </div>

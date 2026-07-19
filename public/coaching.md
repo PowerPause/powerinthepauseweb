@@ -1,50 +1,79 @@
 <!-- Canonical: https://thepowerinthepause.co.uk/coaching/ -->
-# Coaching | Power In The Pause®
+# Work With Katie | Power In The Pause®
 
-Quiet, rigorous, one-to-one work for people ready to lead their life from a steadier place.
+Thoughtful, rigorous support for individuals, leaders and organisations ready to create clarity, navigate change and move forward from a steadier place.
+
+My work brings together practical strategy, behavioural insight, positive psychology, creativity and deep reflection. It is designed for people who want meaningful change that can be felt in everyday life, not simply understood in theory.
+
+There is no fixed formula. The work is shaped around the person, challenge or organisation in front of me, bringing together the parts of my experience that will be most useful.
 
 ## The Pause to Power Pathway®
 
-Katie Cooper's signature one-to-one coaching programme.
+### One-to-one mentoring for meaningful and lasting change
 
-We work together, blending practical strategy with the deeper work: emotional patterns, energy, attention, and the creative practices that hold it all steady. You leave with results you can point to and a way of operating you can keep.
+The Pause to Power Pathway® is my signature one-to-one mentoring experience.
 
-This is for you if you're capable and busy, you've done well by pushing, and you can feel that pushing has stopped working.
+It is for thoughtful, capable people who have often achieved a great deal by staying busy, pushing through and finding the next solution, but who sense that their usual way of operating is no longer serving them.
 
-It begins with a conversation.
+Our work creates space to step back from the noise, understand what is really happening and move forward with greater clarity and self-trust, drawing on practical strategy, coaching, positive psychology, creative enquiry and an understanding of behaviour, attention and emotional patterns.
 
-## Emotional Bioharmonising®
+This work can support you to make clearer decisions, recognise and shift patterns that are no longer serving you, reconnect with your own judgement, navigate personal or professional change, create a steadier and more sustainable way of moving forward, establish clearer boundaries and turn insight into practical action.
 
-A four-week emotional wellbeing programme, self-paced, with a new module each week.
+> "I knew that the way I was working was not how I wanted to do things, but I did not trust that I could do it differently. Now it is like night and day. I have so much more space and so much more time." — Sian, one-to-one client
 
-- Week 1: Reset. Understand your emotional foundation and learn the 3-Minute Shift®.
-- Week 2: Release. Identify and let go of the patterns that drain you.
-- Week 3: Rise. Build a daily rhythm that keeps you steady for longer than a good week.
-- Week 4: Realign. Put the new rhythm to work in your real life.
+It begins with a conversation. There is no pressure and no prepared pitch.
 
-Includes workbooks, journal prompts and guided audio.
+## Support That Goes Deeper
+
+Many of the people I work with are already highly capable, reflective and motivated. What they need is space to think more deeply, honest challenge and support that takes account of the whole person. I will support you, but I will not simply agree with everything you say.
+
+> "I wanted to be challenged... Katie gives me that pushback and helps me sit with what is really going on. That is so valuable." — Beth, one-to-one client
+
+## A Different Way to Grow
+
+Ambition and wellbeing do not have to sit on opposite sides of the table. The aim is not to make you less driven. It is to help you recognise the difference between meaningful momentum and constant force.
+
+> "I knew I still wanted to grow, but I did not want to keep building my business in a way that felt forced. I now work in a way that feels much more aligned and relaxed." — Sarah H., business owner and one-to-one client
+
+## Work With Businesses and Organisations
+
+I bring experience across technology, business development, leadership, behaviour change, positive psychology and creativity into my work with businesses and organisations. This can take the form of leadership reflection and mentoring, facilitated team sessions, creative-thinking workshops, strategic pause sessions, team away days, support during periods of change, culture and values conversations, and bespoke projects and collaborations.
 
 ## Retreats & Experiences
 
-Creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
+I host my own Power In The Pause® retreats and also bring The Art of Pausing® into retreats, gatherings and live experiences created by others. See the dedicated [Retreats page](https://thepowerinthepause.co.uk/retreats/) for details.
 
-Retreats and experiences bring the philosophy of Power In The Pause® into a shared setting, combining creative practice with time away from the everyday. Details of upcoming dates and locations will be announced here. Get in touch via the [Contact page](https://thepowerinthepause.co.uk/contact/) to find out more.
+## Why This Work Is Different
+
+My work sits at the intersection of practical thinking and creative enquiry: a background in technology and business, training in coaching and positive psychology, and an art practice that brings another way of seeing.
+
+> "I thought I needed a new strategy or a more powerful focus. I had no idea how freeing it would be to uncover and release what was underneath." — Lucy, business owner and one-to-one client
+
+## What People Discover Through the Work
+
+> "Working one-to-one takes things to a deeper level. Katie understands what I am trying to create both personally and professionally." — Sarah, business owner and one-to-one client
+
+> "It has been a powerful combination of deep inner work and practical strategy. I feel like myself again, but an even better version than I have ever been." — Tara, business owner and one-to-one client
+
+> "Katie has been there through the ups and downs and has given me what I needed, not always what I wanted." — Fran, one-to-one client
+
+> "I have never felt like I was simply another payment or another client. I feel genuinely seen, supported and challenged." — Andrea, one-to-one client
 
 ## Frequently asked questions
 
-**What is The Pause to Power Pathway®?**
-Katie Cooper's signature one-to-one coaching programme, blending practical strategy with emotional patterns, energy, attention and creative practice.
+**Is this coaching?**
+The work draws on coaching, positive psychology, creative enquiry and practical strategy, but it is not limited to a traditional coaching model. The approach is personalised around what will be most useful to you.
 
-**What is Emotional Bioharmonising®?**
-A four-week, self-paced emotional wellbeing programme with a new module released each week: Reset, Release, Rise, Realign.
+**Do I need to be creative?**
+No. Creative practices are used as tools for attention and reflection, not as tests of artistic ability.
 
-**What does Emotional Bioharmonising® include?**
-Workbooks, journal prompts and guided audio, delivered across four weekly modules.
+**Who is the Pause to Power Pathway® for?**
+Thoughtful, capable people who are navigating change, facing a decision, questioning what comes next or looking for a steadier and more sustainable way of moving forward.
 
-**How do I start coaching with Katie?**
-Coaching begins with a conversation. Book a call from the Coaching page, or get in touch via the Contact page.
+**Do you work with businesses and organisations?**
+Yes. Bespoke mentoring, workshops, facilitated sessions, away days and collaborations across different sectors.
 
-**Is there a free way to try this work first?**
-Yes. Spiral Shift® is a free, five-minute guided drawing experience available on the Resources page.
+**How do I begin?**
+Book a conversation or get in touch via the [Contact page](https://thepowerinthepause.co.uk/contact/).
 
 Last updated: July 2026

@@ -63,17 +63,19 @@ const organizationSchema = {
   name: "Power In The Pause®",
   url: "https://thepowerinthepause.co.uk",
   logo: "https://thepowerinthepause.co.uk/images/power-in-the-pause-gold.png",
-  description: "Power In The Pause® is a philosophy for modern life, practised through creativity, created by coach and artist Katie Cooper.",
+  description: "Power In The Pause® is a philosophy for modern life, practised through creativity, created by artist, mentor and founder Katie Cooper.",
   address: {
     "@type": "PostalAddress",
     addressCountry: "GB",
   },
   sameAs: [LINKS.instagram, LINKS.facebook],
   knowsAbout: [
+    "Mentoring",
     "Coaching",
+    "Positive psychology",
     "Creative practice",
-    "Emotional wellbeing",
     "Mindful drawing",
+    "Retreats",
   ],
 };
 
