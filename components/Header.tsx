@@ -23,13 +23,7 @@ const navItems: NavItem[] = [
   { label: 'About', href: '/about' },
   { label: 'Work With Katie', href: '/coaching' },
   { label: 'Retreats', href: '/retreats' },
-  {
-    label: 'Art',
-    dropdown: [
-      { label: 'The Art of Pausing®', href: '/art/the-art-of-pausing' },
-      { label: 'Intuitive Art', href: '/art/intuitive-art' },
-    ],
-  },
+  { label: 'The Art of Pausing®', href: '/art/the-art-of-pausing' },
   {
     label: 'Shop',
     dropdown: [
