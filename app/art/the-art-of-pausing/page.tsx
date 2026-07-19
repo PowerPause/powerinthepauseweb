@@ -270,7 +270,7 @@ export default function ArtOfPausing() {
             <p className="text-sm text-navy/60">The app is launching first on iPhone.</p>
           </div>
           <a
-            href={LINKS.artOfPausingWebsite}
+            href={LINKS.artOfPausingMembership}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full bg-magenta text-white hover:bg-magenta/90 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2"

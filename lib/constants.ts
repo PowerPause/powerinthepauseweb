@@ -9,8 +9,9 @@ export const COLORS = {
 
 // External Links (TODO: Update with actual values when available)
 export const LINKS = {
-  appStore: 'https://theartofpausing.co.uk', // TODO: Update with App Store URL when available
-  artOfPausingWebsite: 'https://theartofpausing.co.uk',
+  appStore: 'https://theartofpausing.app', // TODO: Update with App Store URL when available
+  artOfPausingWebsite: 'https://theartofpausing.app',
+  artOfPausingMembership: 'https://theartofpausing.app#membership',
   artGallery: 'https://katiecooperart.com/collections/all',
   instagram: 'https://instagram.com/the_intuitive_creator',
   facebook: 'https://www.facebook.com/katie.cooper.507',
