@@ -47,10 +47,10 @@ export default function ActivationDeck() {
       <JsonLd data={productSchema} />
       <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
         <Image
-          src="/images/spiral-shift-example.jpg"
+          src="/images/activation-deck-product.jpg"
           alt="The Power In The Pause Activation Deck"
-          width={768}
-          height={1024}
+          width={1800}
+          height={1200}
           className="w-full h-full object-cover object-center"
           priority
         />

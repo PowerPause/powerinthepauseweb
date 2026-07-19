@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
@@ -93,21 +94,32 @@ export default function Retreats() {
       <JsonLd data={serviceSchema} />
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-4 max-w-2xl">Retreats</h1>
-        <p className="text-lg md:text-xl text-navy/70 mb-8 max-w-2xl">
-          Power In The Pause® retreats, guest facilitation and creative experiences.
-        </p>
-        <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
-          <p>
-            A retreat offers something everyday life rarely gives us: enough space to step out of familiar patterns, reconnect with ourselves and notice what is ready to shift.
-          </p>
-          <p>
-            Through creative practice, reflection, meaningful conversation and carefully held space, Power In The Pause® retreats offer a different way to slow down and explore what becomes possible when there is room to think, feel and create.
-          </p>
-          <p>I host my own retreats and also bring The Art of Pausing® into retreats led by others.</p>
-          <p>
-            No artistic experience is needed. The creative practices are not about producing perfect artwork. They are designed to help people move beyond constant thinking, process experience in a different way and access greater clarity, calm and possibility.
-          </p>
+        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+          <div>
+            <h1 className="text-5xl md:text-6xl font-serif font-light mb-4">Retreats</h1>
+            <p className="text-lg md:text-xl text-navy/70 mb-8">
+              Power In The Pause® retreats, guest facilitation and creative experiences.
+            </p>
+            <div className="prose prose-lg space-y-6 text-navy">
+              <p>
+                A retreat offers something everyday life rarely gives us: enough space to step out of familiar patterns, reconnect with ourselves and notice what is ready to shift.
+              </p>
+              <p>
+                Through creative practice, reflection, meaningful conversation and carefully held space, Power In The Pause® retreats offer a different way to slow down and explore what becomes possible when there is room to think, feel and create.
+              </p>
+              <p>I host my own retreats and also bring The Art of Pausing® into retreats led by others.</p>
+              <p>
+                No artistic experience is needed. The creative practices are not about producing perfect artwork. They are designed to help people move beyond constant thinking, process experience in a different way and access greater clarity, calm and possibility.
+              </p>
+            </div>
+          </div>
+          <Image
+            src="/images/retreats-workshop.jpg"
+            alt="A Power In The Pause® retreat workshop"
+            width={1290}
+            height={1005}
+            className="w-full rounded-lg"
+          />
         </div>
       </Section>
 

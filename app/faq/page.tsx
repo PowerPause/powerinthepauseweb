@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/Button';
 import { FaqAccordionGroups } from '@/components/ui/FaqAccordion';
 import { faqGroupsToSchema } from '@/lib/faq';
 import { JsonLd } from '@/components/JsonLd';
-import { TRADEMARKS } from '@/lib/constants';
+import { LINKS, TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'FAQ | Power In The Pause®',
@@ -188,7 +188,7 @@ export default function FaqPage() {
           <div>
             <FaqAccordionGroups groups={[faqGroups[3]]} includeSchema={false} />
             <div className="mt-6">
-              <Button href="/resources#spiral-shift" variant="secondary">
+              <Button href={LINKS.spiralShiftSignup} variant="secondary">
                 Begin with the {TRADEMARKS.spiralShift}
               </Button>
             </div>

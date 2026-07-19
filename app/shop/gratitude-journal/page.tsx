@@ -25,10 +25,10 @@ export default function PowerInThePauseJournal() {
     <>
       <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
         <Image
-          src="/images/drawing-practice-2.jpg"
+          src="/images/power-in-the-pause-journal.jpg"
           alt="The Power In The Pause Journal"
-          width={1200}
-          height={1548}
+          width={604}
+          height={286}
           className="w-full h-full object-cover object-center"
           priority
         />

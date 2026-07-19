@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import EmailCaptureForm from '@/components/EmailCaptureForm';
+import Script from 'next/script';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { LastUpdated } from '@/components/ui/LastUpdated';
-import { CONTACT, TRADEMARKS } from '@/lib/constants';
+import { LINKS, TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'The Pause Library | Power In The Pause®',
@@ -65,10 +65,9 @@ export default function ThePauseLibrary() {
               <li>experience a different way to pause</li>
             </ul>
           </div>
-          <p className='font-sans text-navy mb-4 font-medium'>
-            Enter your email and the {TRADEMARKS.spiralShift} is yours.
-          </p>
-          <EmailCaptureForm />
+          <Button href={LINKS.spiralShiftSignup} variant='primary'>
+            Send Me the {TRADEMARKS.spiralShift}
+          </Button>
         </section>
 
         <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
@@ -81,12 +80,7 @@ export default function ThePauseLibrary() {
             <p>The collection may include grounding practices, intentional breath, birdsong and nature-based pauses, simple rituals and short reflective audios.</p>
           </div>
           <p className='font-sans text-sm text-navy/60 mb-4'>Coming soon. Join the mailing list to be the first to know.</p>
-          <EmailCaptureForm
-            endpoint={CONTACT.audioMailingListEndpoint}
-            buttonLabel='Join the Mailing List'
-            successMessage="Thank you! We'll let you know as soon as the Free Audio Practices are ready."
-            ariaLabel='Email address for the Free Audio Practices mailing list'
-          />
+          <Script async data-uid='f2b6029799' src='https://katie-cooper-coaching.kit.com/f2b6029799/index.js' strategy='afterInteractive' />
         </section>
 
         <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
@@ -132,7 +126,7 @@ export default function ThePauseLibrary() {
             <p>The Pause Library is here as a place to begin and a place to return to.</p>
           </div>
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>
-            <Button href='#spiral-shift' variant='primary'>
+            <Button href={LINKS.spiralShiftSignup} variant='primary'>
               Begin with the {TRADEMARKS.spiralShift}
             </Button>
             <Button href='/art/the-art-of-pausing' variant='secondary' className='!border-cream !text-cream hover:!bg-cream hover:!text-navy'>

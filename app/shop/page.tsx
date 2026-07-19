@@ -45,7 +45,7 @@ export default function Shop() {
           <div className="bg-cream rounded-lg overflow-hidden border border-gold/20 flex flex-col">
             <div className="relative h-64 w-full">
               <Image
-                src="/images/spiral-shift-example.jpg"
+                src="/images/activation-deck-product.jpg"
                 alt="The Power In The Pause Activation Deck"
                 fill
                 className="object-cover"
@@ -71,7 +71,7 @@ export default function Shop() {
           <div className="bg-cream rounded-lg overflow-hidden border border-gold/20 flex flex-col">
             <div className="relative h-64 w-full">
               <Image
-                src="/images/drawing-practice-2.jpg"
+                src="/images/power-in-the-pause-journal.jpg"
                 alt="The Power In The Pause Journal"
                 fill
                 className="object-cover"

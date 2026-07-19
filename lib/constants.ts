@@ -17,7 +17,8 @@ export const LINKS = {
   facebook: 'https://www.facebook.com/katie.cooper.507',
   shopifyStore: 'https://katiecooperart.com',
   activationDeckProduct: 'https://katiecooperart.com/products/the-power-in-the-pause-activation-deck',
-  journalAmazonProduct: '', // TODO: Add Power In The Pause Journal Amazon product URL when available
+  journalAmazonProduct: 'https://amzn.eu/d/0brCUoPV',
+  spiralShiftSignup: 'https://pages.katiecoopercoaching.com',
 } as const;
 
 // Shopify Configuration
@@ -37,11 +38,9 @@ export const SHOPIFY = {
 
 // Contact & Forms (TODO: Update with actual values)
 export const CONTACT = {
-  email: '', // TODO: e.g., hello@thepowerinthepause.co.uk
+  email: 'katie@thepowerinthepause.co.uk',
   bookingUrl: '', // TODO: Booking / calendar URL for "Book a Conversation"
   formServiceEndpoint: '', // TODO: Formspree/Web3Forms/Kit endpoint for contact form
-  emailCaptureEndpoint: '', // TODO: Kit/ConvertKit endpoint for Spiral Shift
-  audioMailingListEndpoint: '', // TODO: Kit/ConvertKit endpoint for Free Audio Practices waitlist
 } as const;
 
 // Registered Trademarks

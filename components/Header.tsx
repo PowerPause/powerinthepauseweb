@@ -196,7 +196,7 @@ export function Header() {
               ))}
             </ul>
 
-            <Button variant="primary" href="/resources#spiral-shift" className="whitespace-nowrap">
+            <Button variant="primary" href={LINKS.spiralShiftSignup} className="whitespace-nowrap">
               Begin with the Spiral Shift®
             </Button>
           </nav>
@@ -312,7 +312,7 @@ export function Header() {
             <div className="mt-8">
               <Button
                 variant="primary"
-                href="/resources#spiral-shift"
+                href={LINKS.spiralShiftSignup}
                 className="w-full"
               >
                 Begin with the Spiral Shift®

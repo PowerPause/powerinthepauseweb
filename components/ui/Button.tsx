@@ -1,7 +1,7 @@
 ﻿import Link from 'next/link';
 import { ButtonHTMLAttributes, ReactNode } from 'react';
 
-type ButtonVariant = 'primary' | 'secondary' | 'text';
+type ButtonVariant = 'primary' | 'secondary' | 'text' | 'gold';
 
 interface ButtonProps {
   variant?: ButtonVariant;
@@ -30,11 +30,28 @@ export function Button({
     primary: 'bg-magenta text-white rounded-full hover:bg-magenta/90',
     secondary: 'border-2 border-navy text-navy rounded-full hover:bg-navy hover:text-cream',
     text: 'text-navy underline-offset-4 hover:underline',
+    gold: 'bg-gradient-to-b from-[#F6E8C8] via-[#D6B25E] to-[#C9A24A] text-navy rounded-full shadow-sm hover:brightness-105',
   };
 
   const combinedClassName = `${baseStyles} ${variantStyles[variant]} ${className}`;
 
   if (href && !disabled) {
+    const isExternal = /^https?:\/\//.test(href);
+
+    if (isExternal) {
+      return (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={combinedClassName}
+          aria-label={ariaLabel}
+        >
+          {children}
+        </a>
+      );
+    }
+
     return (
       <Link
         href={href}

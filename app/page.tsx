@@ -6,6 +6,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { TestimonialCarousel } from '@/components/ui/TestimonialCarousel';
 import { ShimmerWordmark } from '@/components/ui/ShimmerWordmark';
+import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Power In The Pause® | A philosophy for modern life',
@@ -82,10 +83,10 @@ export default function Home() {
 
         <ScrollReveal delay={200}>
           <div className="flex flex-col sm:flex-row gap-6 items-center">
-            <Button href="/resources#spiral-shift" variant="primary">
+            <Button href={LINKS.spiralShiftSignup} variant="gold">
               Begin with the Spiral Shift®
             </Button>
-            <Button href="#philosophy" variant="text">
+            <Button href="#philosophy" variant="secondary">
               Discover the Philosophy
             </Button>
           </div>
@@ -250,20 +251,10 @@ export default function Home() {
               <Button href="/art/the-art-of-pausing" variant="secondary">
                 Discover The Art of Pausing®
               </Button>
-              <Button href="/resources#spiral-shift" variant="text">
+              <Button href={LINKS.spiralShiftSignup} variant="text">
                 Try the Spiral Shift®
               </Button>
             </div>
-
-            <div
-              aria-hidden="true"
-              className="w-40 h-16 md:w-48 md:h-20 mx-auto mt-10 rounded-lg"
-              style={{
-                backgroundImage: "url('/images/art-of-pausing-texture.jpg')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            />
           </ScrollReveal>
         </div>
       </Section>
@@ -335,7 +326,7 @@ export default function Home() {
               <p className="font-sans text-navy leading-relaxed max-w-2xl mx-auto">
                 A creative wellbeing app that helps you create space, process emotions and reconnect with yourself through simple pen-and-paper creative practices.
               </p>
-              <Button href="/art/the-art-of-pausing" variant="primary">
+              <Button href="/art/the-art-of-pausing" variant="gold">
                 Discover The Art of Pausing®
               </Button>
             </div>
@@ -350,7 +341,7 @@ export default function Home() {
                 <p className="font-sans text-navy leading-relaxed">
                   A free five-minute creative practice designed to introduce you to the philosophy of Power In The Pause®.
                 </p>
-                <Button href="/resources#spiral-shift" variant="secondary" className="w-full">
+                <Button href={LINKS.spiralShiftSignup} variant="secondary" className="w-full">
                   Try the Spiral Shift®
                 </Button>
               </div>

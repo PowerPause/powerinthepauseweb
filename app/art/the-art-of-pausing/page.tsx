@@ -106,7 +106,7 @@ export default function ArtOfPausing() {
           >
             Explore the App
           </a>
-          <Button href="/resources#spiral-shift" variant="secondary">
+          <Button href={LINKS.spiralShiftSignup} variant="secondary">
             Try {TRADEMARKS.spiralShift}
           </Button>
         </div>
@@ -283,7 +283,7 @@ export default function ArtOfPausing() {
       <Section background="white">
         <p className="text-center italic text-navy max-w-2xl mx-auto">
           Curious, but not ready to join? Begin with {TRADEMARKS.spiralShift}, a free five-minute creative practice that gives you a simple first experience of this different way to pause.{' '}
-          <Button href="/resources#spiral-shift" variant="text">
+          <Button href={LINKS.spiralShiftSignup} variant="text">
             Try {TRADEMARKS.spiralShift}
           </Button>
         </p>
