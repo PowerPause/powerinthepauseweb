@@ -1,19 +1,19 @@
 import type { Metadata } from 'next';
 import EmailCaptureForm from '@/components/EmailCaptureForm';
+import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
-import { Faq } from '@/components/ui/Faq';
 import { LastUpdated } from '@/components/ui/LastUpdated';
-import { TRADEMARKS } from '@/lib/constants';
+import { CONTACT, TRADEMARKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Resources | Power In The Pause®',
-  description: 'Free resources and tools for your creative practice.',
+  title: 'The Pause Library | Power In The Pause®',
+  description: 'A growing collection of free practices, reflections and resources, starting with the free five-minute Spiral Shift® creative practice.',
   alternates: {
     canonical: 'https://thepowerinthepause.co.uk/resources/',
   },
   openGraph: {
-    title: 'Resources | Power In The Pause®',
-    description: 'Free resources and tools for your creative practice.',
+    title: 'The Pause Library | Power In The Pause®',
+    description: 'A growing collection of free practices, reflections and resources, starting with the free five-minute Spiral Shift® creative practice.',
     url: 'https://thepowerinthepause.co.uk/resources/',
     type: 'website',
     siteName: 'Power In The Pause®',
@@ -21,79 +21,129 @@ export const metadata: Metadata = {
   },
 };
 
-const faqItems = [
-  {
-    question: 'What is Spiral Shift®?',
-    answer: 'A free, guided five-to-ten minute drawing experience designed to pause, release mental noise and find clarity. No artistic ability needed.',
-  },
-  {
-    question: 'How do I get Spiral Shift®?',
-    answer: 'Enter your email on this page and it is sent directly.',
-  },
-  {
-    question: 'Is The Art of Pausing® app free?',
-    answer: 'Spiral Shift® inside the app is free. The full Art of Pausing® app is available on the App Store.',
-  },
-];
-
-export default function Resources() {
+export default function ThePauseLibrary() {
   return (
     <main className='min-h-screen bg-cream py-12 md:py-16'>
       <div className='mx-auto max-w-2xl px-6'>
-        <div className='mb-12 md:mb-16'>
-          <h1 className='font-serif text-4xl md:text-5xl text-navy mb-6 leading-tight'>
-            Resources
+        <div className='mb-10 md:mb-12'>
+          <h1 className='font-serif text-4xl md:text-5xl text-navy mb-4 leading-tight'>
+            The Pause Library
           </h1>
-          <p className='font-sans text-lg text-navy/70 max-w-65ch leading-relaxed'>
-            Places to start, and things to return to.
+          <p className='font-sans text-lg text-navy/70 mb-6 leading-relaxed'>
+            Places to begin, and practices to return to.
           </p>
+          <div className='font-sans text-navy/80 space-y-3 leading-relaxed'>
+            <p>The Pause Library is a growing collection of free practices, reflections and useful resources designed to help you create space in everyday life.</p>
+            <p>Some are simple places to begin. Others are here for the moments when you need to pause, reset your attention or return to something that has helped before.</p>
+            <p>Take what feels useful. Leave what does not. Come back whenever you need to.</p>
+          </div>
         </div>
 
         <section
           id='spiral-shift'
-          className='mb-12 md:mb-16 bg-white px-6 md:px-8 py-8 md:py-12 rounded relative'
+          className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded relative'
         >
-          <DecorativeCircles count={4} />
-          <h2 className='font-serif text-3xl md:text-4xl text-navy mb-4'>
-            {TRADEMARKS.spiralShift}
+          <DecorativeCircles count={3} />
+          <h2 className='font-serif text-2xl md:text-3xl text-navy mb-1'>
+            Begin with the {TRADEMARKS.spiralShift}
           </h2>
-          <p className='font-sans text-navy/70 mb-6 leading-relaxed max-w-65ch'>
-            A free, guided drawing experience. Five to ten minutes with a pen, a piece of paper, and your own attention (to pause, release mental noise, and find some clarity). No artistic ability needed.
-          </p>
-          <p className='font-sans text-navy mb-6 font-medium'>
-            Enter your email and it's yours.
+          <p className='font-sans text-sm text-navy/60 mb-4'>A free five-minute creative practice</p>
+          <div className='font-sans text-navy/80 space-y-3 leading-relaxed mb-5'>
+            <p>
+              The {TRADEMARKS.spiralShift} is a simple introduction to the philosophy of {TRADEMARKS.masterBrand} and the creative approach behind {TRADEMARKS.artOfPausing}.
+            </p>
+            <p>All you need is a pen, a piece of paper and five quiet minutes.</p>
+            <p>
+              As you follow the spiral, your attention moves away from repetitive thinking and onto the page. There is nothing to get right and no artistic ability is needed.
+            </p>
+            <p>It is a small practice, but it can help you:</p>
+            <ul className='list-disc pl-5 space-y-1'>
+              <li>interrupt mental noise</li>
+              <li>slow down</li>
+              <li>reconnect with the present moment</li>
+              <li>create space for a fresh perspective</li>
+              <li>experience a different way to pause</li>
+            </ul>
+          </div>
+          <p className='font-sans text-navy mb-4 font-medium'>
+            Enter your email and the {TRADEMARKS.spiralShift} is yours.
           </p>
           <EmailCaptureForm />
         </section>
 
-        <section className='mb-12 md:mb-16 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
-          <h2 className='font-serif text-3xl md:text-4xl text-navy mb-4'>
-            {TRADEMARKS.artOfPausing} app
-          </h2>
-          <p className='font-sans text-navy/70 max-w-65ch leading-relaxed'>
-            The daily practice, on your iPhone.{' '}
-            <a
-              href='/art/the-art-of-pausing'
-              className='text-magenta hover:text-magenta/80 font-medium underline'
-            >
-              Learn more
-            </a>
-          </p>
+        <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
+          <h2 className='font-serif text-2xl md:text-3xl text-navy mb-3'>Free Audio Practices</h2>
+          <div className='font-sans text-navy/80 space-y-3 leading-relaxed mb-5'>
+            <p>A small collection of guided audio practices to support grounding, reflection and intentional pauses throughout the day.</p>
+            <p>
+              These audios come from an earlier body of work and remain deeply aligned with {TRADEMARKS.masterBrand}. They are being offered freely as simple ways to pause without adding more content to the {TRADEMARKS.artOfPausing} app.
+            </p>
+            <p>The collection may include grounding practices, intentional breath, birdsong and nature-based pauses, simple rituals and short reflective audios.</p>
+          </div>
+          <p className='font-sans text-sm text-navy/60 mb-4'>Coming soon. Join the mailing list to be the first to know.</p>
+          <EmailCaptureForm
+            endpoint={CONTACT.audioMailingListEndpoint}
+            buttonLabel='Join the Mailing List'
+            successMessage="Thank you! We'll let you know as soon as the Free Audio Practices are ready."
+            ariaLabel='Email address for the Free Audio Practices mailing list'
+          />
         </section>
 
-        <section className='bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
-          <h2 className='font-serif text-3xl md:text-4xl text-navy mb-6'>
-            Notes on pausing
+        <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
+          <h2 className='font-serif text-2xl md:text-3xl text-navy mb-3'>
+            Notes on Pausing
           </h2>
-          <p className='text-sm text-navy/60 italic bg-cream border-l-4 border-gold/30 px-4 py-3'>
-            [TODO: Confirm whether to launch with articles, a newsletter link, or hold this section for phase two. Layout built either way; content can be empty at launch if needed.]
+          <p className='font-sans text-navy/80 leading-relaxed mb-5'>
+            Short reflections, practical ideas and thoughtful explorations of what it means to create more space in modern life, on attention and awareness, creativity and wellbeing, self-trust, decision-making, emotional patterns, living and working with greater intention, the science behind creative practice, and what becomes possible when we stop pushing.
           </p>
+          <Button variant='secondary' disabled>
+            Coming Soon
+          </Button>
         </section>
 
-        <section className='mt-12 md:mt-16 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
-          <Faq items={faqItems} />
+        <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
+          <h2 className='font-serif text-2xl md:text-3xl text-navy mb-3'>
+            {TRADEMARKS.artOfPausing} App
+          </h2>
+          <p className='font-sans text-navy/80 leading-relaxed mb-5'>
+            The signature creative practice within {TRADEMARKS.masterBrand}. Available on iPhone, the app offers guided pen-and-paper creative practices to help you process emotions, gain perspective and reconnect with yourself. You do not need artistic experience, the right words or a perfectly quiet mind.
+          </p>
+          <Button href='/art/the-art-of-pausing' variant='primary'>
+            Discover {TRADEMARKS.artOfPausing}
+          </Button>
+        </section>
+
+        <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
+          <h2 className='font-serif text-2xl md:text-3xl text-navy mb-3'>Useful Questions</h2>
+          <p className='font-sans text-navy/80 leading-relaxed mb-5'>
+            Not sure where to begin, what materials you need or whether creative practice is right for you? The FAQ page answers the most common questions about {TRADEMARKS.masterBrand}, {TRADEMARKS.artOfPausing}, the {TRADEMARKS.spiralShift}, mentoring, retreats and the wider body of work.
+          </p>
+          <Button href='/faq' variant='secondary'>
+            Visit the FAQ
+          </Button>
+        </section>
+
+        <section className='bg-navy text-cream px-6 md:px-8 py-10 md:py-12 rounded text-center'>
+          <h2 className='font-serif text-2xl md:text-3xl mb-4'>Return whenever you need to</h2>
+          <div className='font-sans text-cream/90 space-y-2 leading-relaxed mb-8 max-w-md mx-auto'>
+            <p>A pause does not need to be complicated.</p>
+            <p>Sometimes it is five minutes with a pen.</p>
+            <p>Sometimes it is a familiar audio, a useful question or a thought that helps you see something differently.</p>
+            <p>The Pause Library is here as a place to begin and a place to return to.</p>
+          </div>
+          <div className='flex flex-col sm:flex-row gap-4 justify-center'>
+            <Button href='#spiral-shift' variant='primary'>
+              Begin with the {TRADEMARKS.spiralShift}
+            </Button>
+            <Button href='/art/the-art-of-pausing' variant='secondary' className='!border-cream !text-cream hover:!bg-cream hover:!text-navy'>
+              Explore {TRADEMARKS.artOfPausing}
+            </Button>
+          </div>
+        </section>
+
+        <div className='mt-10 bg-white px-6 md:px-8 py-6 rounded'>
           <LastUpdated date="July 2026" />
-        </section>
+        </div>
       </div>
     </main>
   );

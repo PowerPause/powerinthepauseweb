@@ -35,7 +35,7 @@ Katie Cooper spent much of her working life building businesses and leading team
 - [Retreats & Experiences](https://thepowerinthepause.co.uk/retreats/): creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
 - [Power In The Pause Journal](https://thepowerinthepause.co.uk/shop/gratitude-journal/): a beautifully designed companion for daily reflection, gratitude and intentional living.
 
-The Activation Deck (forty-four reflection cards) remains available in the [Shop](https://thepowerinthepause.co.uk/shop/activation-deck/).
+The Activation Deck (forty-four reflection cards) and Katie Cooper Art are also available in the [Shop](https://thepowerinthepause.co.uk/shop/).
 
 See the [FAQ page](https://thepowerinthepause.co.uk/faq/) for answers to common questions.
 

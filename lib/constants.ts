@@ -16,6 +16,7 @@ export const LINKS = {
   facebook: 'https://www.facebook.com/katie.cooper.507',
   shopifyStore: 'https://katiecooperart.com',
   activationDeckProduct: 'https://katiecooperart.com/products/the-power-in-the-pause-activation-deck',
+  journalAmazonProduct: '', // TODO: Add Power In The Pause Journal Amazon product URL when available
 } as const;
 
 // Shopify Configuration
@@ -30,12 +31,6 @@ export const SHOPIFY = {
       variantId: '57393671143798',
       price: '£28.00',
     },
-    // TODO: Add Gratitude Journal product ID when Katie adds it to Shopify
-    gratitudeJournal: {
-      id: '',
-      variantId: '',
-      price: '',
-    },
   },
 } as const;
 
@@ -45,11 +40,7 @@ export const CONTACT = {
   bookingUrl: '', // TODO: Booking / calendar URL for "Book a Conversation"
   formServiceEndpoint: '', // TODO: Formspree/Web3Forms/Kit endpoint for contact form
   emailCaptureEndpoint: '', // TODO: Kit/ConvertKit endpoint for Spiral Shift
-} as const;
-
-// Copy placeholders (TODO: Get from Katie)
-export const COPY_PLACEHOLDERS = {
-  gratitudeJournalSpecs: '[TODO: price, page count, format]',
+  audioMailingListEndpoint: '', // TODO: Kit/ConvertKit endpoint for Free Audio Practices waitlist
 } as const;
 
 // Registered Trademarks

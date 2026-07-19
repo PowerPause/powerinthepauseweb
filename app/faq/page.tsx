@@ -25,7 +25,7 @@ const faqItems = [
   },
   {
     question: 'Is Spiral Shift® free?',
-    answer: 'Yes. Spiral Shift® is a free, five-minute guided drawing experience available on the Resources page.',
+    answer: 'Yes. Spiral Shift® is a free, five-minute creative practice available in the Pause Library.',
   },
   {
     question: 'Do I need artistic ability to take part?',

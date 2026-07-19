@@ -1,20 +1,19 @@
 ﻿import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
-import { Button } from '@/components/ui/Button';
 import { LastUpdated } from '@/components/ui/LastUpdated';
 import { JsonLd } from '@/components/JsonLd';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'The Activation Deck | Power In The Pause®',
-  description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
+  title: 'Power In The Pause® Activation Deck | Power In The Pause®',
+  description: 'A 44-card deck created to offer a simple point of reflection whenever you need clarity, encouragement or a fresh perspective. £28.00.',
   alternates: {
     canonical: 'https://thepowerinthepause.co.uk/shop/activation-deck/',
   },
   openGraph: {
-    title: 'The Activation Deck | Power In The Pause®',
-    description: 'Forty-four reflection cards to bring the pause into your hands. £28.00.',
+    title: 'Power In The Pause® Activation Deck | Power In The Pause®',
+    description: 'A 44-card deck created to offer a simple point of reflection whenever you need clarity, encouragement or a fresh perspective. £28.00.',
     url: 'https://thepowerinthepause.co.uk/shop/activation-deck/',
     type: 'website',
     siteName: 'Power In The Pause®',
@@ -26,7 +25,7 @@ const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'Power In The Pause® Activation Deck',
-  description: 'Forty-four reflection cards drawn from the four movements of this work: Reset, Release, Rise, Realign.',
+  description: 'A 44-card deck created to offer a simple point of reflection whenever you need clarity, encouragement or a fresh perspective.',
   sku: '9781036973308',
   gtin13: '9781036973308',
   brand: {
@@ -61,20 +60,31 @@ export default function ActivationDeck() {
         <h1 className="text-5xl md:text-6xl font-serif font-light mb-8 max-w-2xl">Power In The Pause® Activation Deck</h1>
 
         <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
-          <p>Forty-four reflection cards to bring the pause into your hands.</p>
-          <p>Each card carries a short reflection drawn from the four movements of this work: Reset, Release, Rise, Realign. Pull one at the start of the day, before a difficult conversation, or alongside your drawing practice. One card, one pause, one clearer next step.</p>
-          <p>The deck stands alone, and it also accompanies The Art of Pausing® app, where its reflections guide each practice.</p>
+          <p>
+            A 44-card deck created to offer a simple point of reflection whenever you need clarity, encouragement or a fresh perspective.
+          </p>
+          <p>
+            Each card carries a prompt, message or invitation to help you pause, notice what is present and reconnect with your own inner guidance.
+          </p>
+          <p>
+            The deck can be used as part of a morning practice, alongside journalling, before making a decision or whenever you need a moment to step out of the noise.
+          </p>
           <p className="font-serif text-2xl">£28.00</p>
           <p className="text-sm text-navy/70">ISBN: 9781036973308</p>
         </div>
 
-        <div id="shopify-activation-deck" className="my-8">
-          <p className="text-sm text-navy/60 italic">
-            Shopify Buy Button will be integrated here. For now:{' '}
-            <a href={LINKS.activationDeckProduct} className="text-magenta hover:underline">
-              Buy on Katie's Shop ↗
-            </a>
-          </p>
+        <div className="mt-8">
+          <a
+            href={LINKS.activationDeckProduct}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full bg-magenta text-white hover:bg-magenta/90 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2"
+          >
+            Shop the Activation Deck
+            <svg className="w-4 h-4 ml-2" fill="none" strokeWidth="2" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17 7L7 17M17 7H8M17 7v9" />
+            </svg>
+          </a>
         </div>
 
         <LastUpdated date="July 2026" />

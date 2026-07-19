@@ -4,10 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
 import { Button } from './ui/Button';
+import { LINKS } from '@/lib/constants';
 
 interface DropdownItem {
   label: string;
   href: string;
+  external?: boolean;
 }
 
 interface NavItem {
@@ -31,11 +33,12 @@ const navItems: NavItem[] = [
   {
     label: 'Shop',
     dropdown: [
-      { label: 'The Activation Deck', href: '/shop/activation-deck' },
-      { label: 'The Gratitude Journal', href: '/shop/gratitude-journal' },
+      { label: 'Power In The Pause® Activation Deck', href: '/shop/activation-deck' },
+      { label: 'Power In The Pause Journal', href: '/shop/gratitude-journal' },
+      { label: 'Katie Cooper Art ↗', href: LINKS.shopifyStore, external: true },
     ],
   },
-  { label: 'Resources', href: '/resources' },
+  { label: 'The Pause Library', href: '/resources' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ];
@@ -159,18 +162,32 @@ export function Header() {
                         </svg>
                       </button>
                       {openDropdown === item.label && (
-                        <ul className="absolute top-full left-0 mt-2 bg-white border border-gold/20 rounded shadow-lg py-2 min-w-[200px]">
-                          {item.dropdown.map((dropdownItem) => (
-                            <li key={dropdownItem.href}>
-                              <Link
-                                href={dropdownItem.href}
-                                onClick={() => setOpenDropdown(null)}
-                                className="block px-4 py-2 text-navy hover:bg-cream hover:text-gold transition-colors focus:outline-none focus:bg-cream focus:text-gold"
-                              >
-                                {dropdownItem.label}
-                              </Link>
-                            </li>
-                          ))}
+                        <ul className="absolute top-full left-0 mt-2 bg-white border border-gold/20 rounded shadow-lg py-2 min-w-[240px]">
+                          {item.dropdown.map((dropdownItem) =>
+                            dropdownItem.external ? (
+                              <li key={dropdownItem.href}>
+                                <a
+                                  href={dropdownItem.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  onClick={() => setOpenDropdown(null)}
+                                  className="block px-4 py-2 text-navy hover:bg-cream hover:text-gold transition-colors focus:outline-none focus:bg-cream focus:text-gold whitespace-nowrap"
+                                >
+                                  {dropdownItem.label}
+                                </a>
+                              </li>
+                            ) : (
+                              <li key={dropdownItem.href}>
+                                <Link
+                                  href={dropdownItem.href}
+                                  onClick={() => setOpenDropdown(null)}
+                                  className="block px-4 py-2 text-navy hover:bg-cream hover:text-gold transition-colors focus:outline-none focus:bg-cream focus:text-gold whitespace-nowrap"
+                                >
+                                  {dropdownItem.label}
+                                </Link>
+                              </li>
+                            )
+                          )}
                         </ul>
                       )}
                     </div>
@@ -258,17 +275,31 @@ export function Header() {
                       </button>
                       {openDropdown === item.label && (
                         <ul className="mt-4 ml-4 space-y-3">
-                          {item.dropdown.map((dropdownItem) => (
-                            <li key={dropdownItem.href}>
-                              <Link
-                                href={dropdownItem.href}
-                                onClick={closeMobileMenu}
-                                className="text-xl text-navy hover:text-gold transition-colors block focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded p-2"
-                              >
-                                {dropdownItem.label}
-                              </Link>
-                            </li>
-                          ))}
+                          {item.dropdown.map((dropdownItem) =>
+                            dropdownItem.external ? (
+                              <li key={dropdownItem.href}>
+                                <a
+                                  href={dropdownItem.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  onClick={closeMobileMenu}
+                                  className="text-xl text-navy hover:text-gold transition-colors block focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded p-2"
+                                >
+                                  {dropdownItem.label}
+                                </a>
+                              </li>
+                            ) : (
+                              <li key={dropdownItem.href}>
+                                <Link
+                                  href={dropdownItem.href}
+                                  onClick={closeMobileMenu}
+                                  className="text-xl text-navy hover:text-gold transition-colors block focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 rounded p-2"
+                                >
+                                  {dropdownItem.label}
+                                </Link>
+                              </li>
+                            )
+                          )}
                         </ul>
                       )}
                     </div>

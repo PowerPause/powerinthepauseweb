@@ -3,7 +3,19 @@
 import { useState } from 'react';
 import { CONTACT, TRADEMARKS } from '@/lib/constants';
 
-export default function EmailCaptureForm() {
+interface EmailCaptureFormProps {
+  endpoint?: string;
+  buttonLabel?: string;
+  successMessage?: string;
+  ariaLabel?: string;
+}
+
+export default function EmailCaptureForm({
+  endpoint = CONTACT.emailCaptureEndpoint,
+  buttonLabel = `Send Me the ${TRADEMARKS.spiralShift}`,
+  successMessage = `Thank you! Check your email for ${TRADEMARKS.spiralShift}.`,
+  ariaLabel = `Email address for ${TRADEMARKS.spiralShift}`,
+}: EmailCaptureFormProps) {
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState('');
@@ -16,7 +28,7 @@ export default function EmailCaptureForm() {
       return;
     }
 
-    if (!CONTACT.emailCaptureEndpoint) {
+    if (!endpoint) {
       setMessage('[TODO: Email capture requires integration with Kit/ConvertKit. Endpoint not configured in lib/constants.ts]');
       return;
     }
@@ -24,14 +36,14 @@ export default function EmailCaptureForm() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(CONTACT.emailCaptureEndpoint, {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
       });
 
       if (response.ok) {
-        setMessage(`Thank you! Check your email for ${TRADEMARKS.spiralShift}.`);
+        setMessage(successMessage);
         setEmail('');
       } else {
         setMessage('Something went wrong. Please try again.');
@@ -57,7 +69,7 @@ export default function EmailCaptureForm() {
           placeholder='hello@example.com'
           disabled={isSubmitting}
           required
-          aria-label='Email address for Spiral Shift®'
+          aria-label={ariaLabel}
           className='w-full px-4 py-2 border border-gold/30 rounded bg-white text-navy placeholder:text-navy/40 focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 disabled:opacity-50'
         />
       </div>
@@ -65,10 +77,10 @@ export default function EmailCaptureForm() {
       <button
         type='submit'
         disabled={isSubmitting}
-        aria-label={`Send me ${TRADEMARKS.spiralShift}`}
+        aria-label={buttonLabel}
         className='w-full px-6 py-3 bg-magenta text-white font-medium rounded hover:bg-magenta/90 focus:outline-none focus:ring-2 focus:ring-magenta/50 disabled:opacity-50 transition-colors'
       >
-        {isSubmitting ? 'Sending...' : `Send me ${TRADEMARKS.spiralShift}`}
+        {isSubmitting ? 'Sending...' : buttonLabel}
       </button>
 
       {message && (

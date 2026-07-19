@@ -1,27 +1,30 @@
 <!-- Canonical: https://thepowerinthepause.co.uk/resources/ -->
-# Resources | Power In The Pause®
+# The Pause Library | Power In The Pause®
 
-Places to start, and things to return to.
+Places to begin, and practices to return to.
 
-## Spiral Shift®
+The Pause Library is a growing collection of free practices, reflections and useful resources designed to help you create space in everyday life.
 
-A free, guided drawing experience. Five to ten minutes with a pen, a piece of paper, and your own attention (to pause, release mental noise, and find some clarity). No artistic ability needed.
+## Begin with the Spiral Shift®
 
-Enter your email on the Resources page and it's yours.
+A free five-minute creative practice. All you need is a pen, a piece of paper and five quiet minutes. As you follow the spiral, your attention moves away from repetitive thinking and onto the page. No artistic ability is needed.
+
+Enter your email on the Pause Library page and Spiral Shift® is yours.
+
+## Free Audio Practices
+
+A small collection of guided audio practices to support grounding, reflection and intentional pauses throughout the day. Coming soon. Join the mailing list to be the first to know.
+
+## Notes on Pausing
+
+Short reflections and practical ideas on attention, creativity, wellbeing, self-trust and living with greater intention. Coming soon.
 
 ## The Art of Pausing® app
 
-The daily practice, on your iPhone.
+The signature creative practice within Power In The Pause®, available on iPhone.
 
 ## Frequently asked questions
 
-**What is Spiral Shift®?**
-A free, guided five-to-ten minute drawing experience designed to pause, release mental noise and find clarity. No artistic ability needed.
-
-**How do I get Spiral Shift®?**
-Enter your email on the Resources page and it is sent directly.
-
-**Is The Art of Pausing® app free?**
-Spiral Shift® inside the app is free. The full Art of Pausing® app is available on the App Store.
+See the [FAQ page](https://thepowerinthepause.co.uk/faq/) for answers to common questions about Power In The Pause®, The Art of Pausing®, Spiral Shift®, mentoring, retreats and the wider body of work.
 
 Last updated: July 2026

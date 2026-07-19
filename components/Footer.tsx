@@ -70,7 +70,7 @@ export function Footer() {
                   href="/resources"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
-                  Resources
+                  The Pause Library
                 </Link>
               </li>
               <li>
@@ -98,10 +98,18 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
+                  href="/shop"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/shop/activation-deck"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
-                  The Activation Deck
+                  Power In The Pause® Activation Deck
                 </Link>
               </li>
               <li>
@@ -109,7 +117,7 @@ export function Footer() {
                   href="/shop/gratitude-journal"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
-                  The Gratitude Journal
+                  Power In The Pause Journal
                 </Link>
               </li>
               <li className="pt-2">
