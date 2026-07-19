@@ -25,14 +25,11 @@
 }
 
 @keyframes wordmark-shimmer {
-  0%, 65% {
-    background-position: 160% 0;
+  0%, 70% {
+    background-position: 0% 0;
   }
-  85% {
-    background-position: -60% 0;
-  }
-  100% {
-    background-position: -60% 0;
+  85%, 100% {
+    background-position: 100% 0;
   }
 }
 
@@ -45,17 +42,17 @@
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-position: center;
+  /* Solid base colour always fills the full logo shape; the gradient layer
+     only adds a light streak on top, so the mark can never appear hidden,
+     even while the streak is positioned off to one side. */
+  background-color: #C9A24A;
   background-image: linear-gradient(
     115deg,
-    #C9A24A 32%,
-    #C9A24A 44%,
-    #F6E8C8 49%,
-    #FFFBF0 50%,
-    #F6E8C8 51%,
-    #C9A24A 56%,
-    #C9A24A 100%
+    transparent 35%,
+    rgba(255, 251, 240, 0.95) 50%,
+    transparent 65%
   );
-  background-size: 260% 100%;
+  background-size: 300% 100%;
   background-repeat: no-repeat;
   animation: wordmark-shimmer 6s ease-in-out infinite;
 }
