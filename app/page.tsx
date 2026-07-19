@@ -210,54 +210,67 @@ export default function Home() {
 
       {/* The Art of Pausing Section */}
       <Section background="cream">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div
+          aria-hidden="true"
+          className="hidden lg:block absolute inset-y-0 right-0 w-1/4"
+          style={{
+            backgroundImage: "url('/images/art-of-pausing-texture.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'left center',
+            opacity: 0.4,
+            maskImage: 'linear-gradient(to right, transparent, black 60%)',
+            WebkitMaskImage: 'linear-gradient(to right, transparent, black 60%)',
+          }}
+        />
+
+        <div className="max-w-2xl mx-auto text-center relative z-10">
           <ScrollReveal>
-            <div className="space-y-6">
-              <h2 className="font-serif text-4xl md:text-5xl font-light text-navy">
-                The Art of Pausing®
-                <span className="block text-2xl md:text-3xl text-navy/70 mt-2">
-                  A different way to pause.
-                </span>
-              </h2>
-
-              <div className="prose prose-lg max-w-prose space-y-4 text-navy font-sans leading-relaxed">
-                <p>
-                  The Art of Pausing® is the signature creative practice within Power In The Pause®.
-                </p>
-                <p>
-                  Using simple pen-and-paper creative practices, it offers a different way to slow down, create space and reconnect with yourself.
-                </p>
-                <div className="space-y-1">
-                  <p>You don&apos;t need artistic experience.</p>
-                  <p>You don&apos;t need to find the right words.</p>
-                  <p>You don&apos;t need to quiet your mind before you begin.</p>
-                </div>
-                <p>
-                  Instead, each creative practice gently guides you from thinking into noticing, helping you process emotions, gain perspective and discover fresh possibilities through the simple act of creating.
-                </p>
-                <p className="font-serif text-xl md:text-2xl italic text-navy">
-                  Sometimes the biggest shift begins with a single line on a page.
-                </p>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button href="/art/the-art-of-pausing" variant="secondary">
-                  Discover The Art of Pausing®
-                </Button>
-                <Button href="/resources#spiral-shift" variant="text">
-                  Try the Spiral Shift®
-                </Button>
-              </div>
-            </div>
+            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy">
+              The Art of Pausing®
+              <span className="block text-2xl md:text-3xl text-navy/70 mt-2">
+                A different way to pause.
+              </span>
+            </h2>
           </ScrollReveal>
 
           <ScrollReveal delay={100}>
-            <Image
-              src="/images/drawing-practice-1.jpg"
-              alt="The Art of Pausing drawing practice with hands and paper"
-              width={1024}
-              height={720}
-              className="w-full aspect-video rounded-lg object-cover"
+            <div className="prose prose-lg mx-auto space-y-4 text-navy font-sans leading-relaxed mt-8">
+              <p>
+                The Art of Pausing® is the signature creative practice within Power In The Pause®.
+              </p>
+              <p>
+                Using simple pen-and-paper creative practices, it offers a different way to slow down, create space and reconnect with yourself.
+              </p>
+              <div className="space-y-1">
+                <p>You don&apos;t need artistic experience.</p>
+                <p>You don&apos;t need to find the right words.</p>
+                <p>You don&apos;t need to quiet your mind before you begin.</p>
+              </div>
+              <p>
+                Instead, each creative practice gently guides you from thinking into noticing, helping you process emotions, gain perspective and discover fresh possibilities through the simple act of creating.
+              </p>
+              <p className="font-serif text-xl md:text-2xl italic text-navy">
+                Sometimes the biggest shift begins with a single line on a page.
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+              <Button href="/art/the-art-of-pausing" variant="secondary">
+                Discover The Art of Pausing®
+              </Button>
+              <Button href="/resources#spiral-shift" variant="text">
+                Try the Spiral Shift®
+              </Button>
+            </div>
+
+            <div
+              aria-hidden="true"
+              className="w-40 h-16 md:w-48 md:h-20 mx-auto mt-10 rounded-lg"
+              style={{
+                backgroundImage: "url('/images/art-of-pausing-texture.jpg')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
             />
           </ScrollReveal>
         </div>
@@ -265,44 +278,44 @@ export default function Home() {
 
       {/* Founder Section */}
       <Section background="white">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div className="max-w-2xl mx-auto text-center">
           <ScrollReveal>
-            <Image
-              src="/images/katie-portrait.jpg"
-              alt="Katie Cooper, creator of The Power In The Pause"
-              width={800}
-              height={1000}
-              className="w-full aspect-square rounded-lg object-cover object-top"
-            />
+            <div className="w-40 sm:w-48 md:w-56 mx-auto mb-10 md:mb-12">
+              <Image
+                src="/images/katie-portrait-founder.jpg"
+                alt="Katie Cooper, founder of Power In The Pause®"
+                width={900}
+                height={1125}
+                className="w-full h-auto rounded-2xl object-cover"
+              />
+            </div>
           </ScrollReveal>
 
           <ScrollReveal delay={100}>
-            <div className="space-y-6">
-              <h2 className="font-serif text-4xl md:text-5xl font-light text-navy">
-                The Story Behind Power In The Pause®
-              </h2>
+            <h2 className="font-serif text-4xl md:text-5xl font-light text-navy mb-8">
+              The Story Behind Power In The Pause®
+            </h2>
 
-              <div className="prose prose-lg max-w-prose space-y-4 text-navy font-sans leading-relaxed">
-                <p>
-                  I have spent much of my working life building businesses, leading teams and helping people create meaningful change.
-                </p>
-                <p>For years, I believed the answers would come from doing more.</p>
-                <p>Instead, I discovered that the biggest shifts often begin with something much quieter.</p>
-                <p className="font-serif text-xl italic">A pause.</p>
-                <p>
-                  What started as a simple creative practice became a completely different way of understanding ourselves, our emotions and the choices we make.
-                </p>
-                <p>That journey became Power In The Pause®.</p>
-                <p>Today, my mission is simple:</p>
-                <p>
-                  To help people create more space, reconnect with themselves and discover a different way to live well.
-                </p>
-              </div>
-
-              <Button href="/about" variant="text">
-                Read My Story
-              </Button>
+            <div className="prose prose-lg max-w-prose mx-auto space-y-4 text-navy font-sans leading-relaxed">
+              <p>
+                I have spent much of my working life building businesses, leading teams and helping people create meaningful change.
+              </p>
+              <p>For years, I believed the answers would come from doing more.</p>
+              <p>Instead, I discovered that the biggest shifts often begin with something much quieter.</p>
+              <p className="font-serif text-xl italic">A pause.</p>
+              <p>
+                What started as a simple creative practice became a completely different way of understanding ourselves, our emotions and the choices we make.
+              </p>
+              <p>That journey became Power In The Pause®.</p>
+              <p>Today, my mission is simple:</p>
+              <p>
+                To help people create more space, reconnect with themselves and discover a different way to live well.
+              </p>
             </div>
+
+            <Button href="/about" variant="text" className="mt-8">
+              Read My Story
+            </Button>
           </ScrollReveal>
         </div>
       </Section>
