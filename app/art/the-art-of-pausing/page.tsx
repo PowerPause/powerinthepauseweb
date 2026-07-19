@@ -85,30 +85,45 @@ export default function ArtOfPausing() {
       <JsonLd data={softwareSchema} />
 
       <Section>
-        <h1 className="text-5xl md:text-6xl font-serif font-light mb-4 max-w-2xl">{TRADEMARKS.artOfPausing}</h1>
-        <p className="text-lg md:text-xl text-navy/70 mb-8 max-w-2xl">
-          A creative alternative to meditation and journalling.
-        </p>
-        <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
-          <p>
-            {TRADEMARKS.artOfPausing} uses simple pen-and-paper creative practices to help you step out of constant thinking, create space and reconnect with yourself.
+        <div
+          aria-hidden="true"
+          className="hidden lg:block absolute inset-y-0 right-0 w-1/4"
+          style={{
+            backgroundImage: "url('/images/art-of-pausing-spiral-texture.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'left center',
+            opacity: 0.4,
+            maskImage: 'linear-gradient(to right, transparent, black 60%)',
+            WebkitMaskImage: 'linear-gradient(to right, transparent, black 60%)',
+          }}
+        />
+
+        <div className="relative z-10">
+          <h1 className="text-5xl md:text-6xl font-serif font-light mb-4 max-w-2xl">{TRADEMARKS.artOfPausing}</h1>
+          <p className="text-lg md:text-xl text-navy/70 mb-8 max-w-2xl">
+            A creative alternative to meditation and journalling.
           </p>
-          <p>
-            You do not need artistic experience, the right words or a perfectly quiet mind. You simply begin with what is present and allow your attention to move onto the page.
-          </p>
-        </div>
-        <div className="mt-8 flex flex-col sm:flex-row gap-4">
-          <a
-            href={LINKS.artOfPausingWebsite}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full bg-magenta text-white hover:bg-magenta/90 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2"
-          >
-            Explore the App
-          </a>
-          <Button href={LINKS.spiralShiftSignup} variant="secondary">
-            Try {TRADEMARKS.spiralShift}
-          </Button>
+          <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
+            <p>
+              {TRADEMARKS.artOfPausing} uses simple pen-and-paper creative practices to help you step out of constant thinking, create space and reconnect with yourself.
+            </p>
+            <p>
+              You do not need artistic experience, the right words or a perfectly quiet mind. You simply begin with what is present and allow your attention to move onto the page.
+            </p>
+          </div>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            <a
+              href={LINKS.artOfPausingWebsite}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-3 text-base font-medium rounded-full bg-magenta text-white hover:bg-magenta/90 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2"
+            >
+              Explore the App
+            </a>
+            <Button href={LINKS.spiralShiftSignup} variant="secondary">
+              Try {TRADEMARKS.spiralShift}
+            </Button>
+          </div>
         </div>
       </Section>
 

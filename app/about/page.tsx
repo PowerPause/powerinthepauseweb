@@ -29,8 +29,8 @@ export default function About() {
         <Image
           src="/images/katie-portrait.jpg"
           alt="Katie Cooper"
-          width={646}
-          height={360}
+          width={1800}
+          height={1285}
           className="w-full h-full object-cover object-center"
           priority
         />
