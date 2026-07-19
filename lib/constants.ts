@@ -18,7 +18,7 @@ export const LINKS = {
   shopifyStore: 'https://katiecooperart.com',
   activationDeckProduct: 'https://katiecooperart.com/products/the-power-in-the-pause-activation-deck',
   journalAmazonProduct: 'https://amzn.eu/d/0brCUoPV',
-  spiralShiftSignup: 'https://pages.katiecoopercoaching.com',
+  spiralShiftSignup: 'https://pages.thepowerinthepause.co.uk',
 } as const;
 
 // Shopify Configuration
