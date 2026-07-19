@@ -3,36 +3,23 @@ import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
-import { Faq } from '@/components/ui/Faq';
 import { LastUpdated } from '@/components/ui/LastUpdated';
-import { CONTACT, COPY_PLACEHOLDERS, LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'About Katie | Power In The Pause®',
-  description: 'Katie Cooper is a coach, artist and creator of Power In The Pause®, a philosophy for modern life practised through creativity.',
+  title: 'About Katie Cooper | Power In The Pause®',
+  description: 'Katie Cooper is an artist, mentor and founder of Power In The Pause®, a philosophy for modern life practised through creativity.',
   alternates: {
     canonical: 'https://thepowerinthepause.co.uk/about/',
   },
   openGraph: {
-    title: 'About Katie | Power In The Pause®',
-    description: 'Katie Cooper is a coach, artist and creator of Power In The Pause®, a philosophy for modern life practised through creativity.',
+    title: 'About Katie Cooper | Power In The Pause®',
+    description: 'Katie Cooper is an artist, mentor and founder of Power In The Pause®, a philosophy for modern life practised through creativity.',
     url: 'https://thepowerinthepause.co.uk/about/',
     type: 'website',
     siteName: 'Power In The Pause®',
     locale: 'en_GB',
   },
 };
-
-const faqItems = [
-  {
-    question: 'Who is Katie Cooper?',
-    answer: 'Katie Cooper is a coach and artist, and the creator of Power In The Pause®. She built and sold companies before developing this work.',
-  },
-  {
-    question: "What is Katie's professional background?",
-    answer: 'Katie is a coach by training and an artist by practice, combining practical coaching methods with an intuitive creative practice.',
-  },
-];
 
 export default function About() {
   return (
@@ -51,29 +38,70 @@ export default function About() {
       <Section>
         <div className="relative">
           <DecorativeCircles count={6} />
-          <h1 className="text-5xl md:text-6xl font-serif font-light mb-8 max-w-2xl">About Katie</h1>
+          <h1 className="text-5xl md:text-6xl font-serif font-light mb-4 max-w-2xl">About Katie Cooper</h1>
+          <p className="text-lg md:text-xl text-navy/70 font-sans mb-10 max-w-2xl">
+            Artist, mentor and founder of Power In The Pause®
+          </p>
 
-        <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
-          <p>I have spent most of my working life building things, including companies I went on to sell. From the outside it looked like momentum. From the inside it often felt like running.</p>
-          <p>The turning point was not a strategy. It was a pause. I picked up a pen, started to draw with no goal at all, and noticed something shift, first in my attention, then in my decisions, then in everything else. That quiet daily practice became the foundation of my work.</p>
-          <p>Power In The Pause® grew from there: a philosophy, a creative practice, an app, a deck of cards, a coaching programme. Different doors into the same room.</p>
-          <p>I am a coach by training <span className="italic text-gold/75">[TODO: {COPY_PLACEHOLDERS.katieCredentials}]</span> and an artist by practice. My work sits where those two meet: practical enough to hold up on a difficult Tuesday, creative enough to reach the parts of you that plans can't.</p>
-          <p>But this is not about me. The work is what matters, and the work only matters if it is useful to you.</p>
-        </div>
+          <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
+            <p>
+              I have spent much of my working life building businesses, leading teams and helping people create meaningful change. My background spans technology, business development, coaching, positive psychology and art. For a long time, those parts of my experience appeared to belong in separate worlds.
+            </p>
+            <p>Over time, I began to see that they were not separate at all.</p>
+            <p>
+              My years in technology taught me how systems work, how ideas become usable products and how to translate something complex into an experience people can genuinely engage with.
+            </p>
+            <p>
+              My work in coaching and positive psychology deepened my understanding of behaviour, attention, emotion and change. My art practice showed me that insight does not always arrive through words or logic, and that creativity can help us access what thinking alone cannot always reach.
+            </p>
+            <p>The turning point was not another strategy. It was a pause.</p>
+            <p>
+              I picked up a pen and began to draw without a goal. As I continued, I noticed something shift in my attention, then in my decisions and eventually in the way I approached my life and work. That simple creative practice became the beginning of a much larger body of work.
+            </p>
+          </div>
 
-          <div className="mt-12 flex flex-col gap-4">
-            <Button href="/resources#spiral-shift" variant="primary">
-              Begin with the Spiral Shift® (free)
+          <p className="font-serif text-2xl md:text-3xl italic text-gold max-w-2xl my-8">
+            Power In The Pause® grew from the intersection of everything I had learned.
+          </p>
+
+          <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
+            <p>
+              It brings together practical experience, creativity, behavioural insight, technology and an understanding of how the brain responds to attention, pattern, emotion and reflection.
+            </p>
+            <p>
+              That intersection now sits at the heart of The Art of Pausing® app. Technology makes the work accessible. Brain science helps explain why the practices can create a shift. The creative process gives people a way to experience that shift for themselves.
+            </p>
+            <p>
+              I believe our strongest work often emerges when we stop separating the different parts of who we are and allow our experience to come together. What may once have looked like a varied career can become a distinctive body of knowledge, perspective and practice.
+            </p>
+            <p>That is also what I bring to my work with individuals, businesses and organisations.</p>
+            <p>
+              Because I have worked across creativity, technology, leadership, behaviour change and business development, I can bring a fresh perspective to almost any sector. I am able to see both the human experience and the wider system, combining practical thinking with deeper enquiry to help people create clarity, navigate change and move forward in a way that is grounded, meaningful and useful.
+            </p>
+            <p>Power In The Pause® is the clearest expression of that work.</p>
+            <p>
+              It is a philosophy expressed through different pathways, including The Art of Pausing®, one-to-one mentoring, the Power In The Pause Journal, the Activation Deck, workshops and future collaborations with businesses and organisations.
+            </p>
+            <p>Different doors into the same room.</p>
+            <p>Everything I create begins with one belief:</p>
+          </div>
+
+          <p className="font-serif text-2xl md:text-3xl italic text-navy max-w-2xl my-10">
+            Meaningful change starts by creating space.
+          </p>
+
+          <div className="flex flex-col gap-4 max-w-2xl">
+            <Button href="/coaching" variant="primary">
+              Explore the Ways to Work With Me
             </Button>
-            <Button href="/contact" variant="text">
-              Or get in touch
+            <Button href="/#philosophy" variant="text">
+              Discover Power In The Pause®
             </Button>
           </div>
         </div>
       </Section>
 
       <Section background="cream">
-        <Faq items={faqItems} />
         <LastUpdated date="July 2026" />
       </Section>
     </>

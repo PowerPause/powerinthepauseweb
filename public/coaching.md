@@ -24,6 +24,12 @@ A four-week emotional wellbeing programme, self-paced, with a new module each we
 
 Includes workbooks, journal prompts and guided audio.
 
+## Retreats & Experiences
+
+Creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
+
+Retreats and experiences bring the philosophy of Power In The Pause® into a shared setting, combining creative practice with time away from the everyday. Details of upcoming dates and locations will be announced here. Get in touch via the [Contact page](https://thepowerinthepause.co.uk/contact/) to find out more.
+
 ## Frequently asked questions
 
 **What is The Pause to Power Pathway®?**

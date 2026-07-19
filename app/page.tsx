@@ -349,8 +349,22 @@ export default function Home() {
             </div>
           </ScrollReveal>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <ScrollReveal delay={100}>
+              <div className="bg-white p-8 rounded-lg space-y-4 border border-gold/20 h-full">
+                <h3 className="font-serif text-2xl font-light text-navy">
+                  Spiral Shift®
+                </h3>
+                <p className="font-sans text-navy leading-relaxed">
+                  A free five-minute creative practice designed to introduce you to the philosophy of Power In The Pause®.
+                </p>
+                <Button href="/resources#spiral-shift" variant="secondary" className="w-full">
+                  Try the Spiral Shift®
+                </Button>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={150}>
               <div className="bg-white p-8 rounded-lg space-y-4 border border-gold/20 h-full">
                 <h3 className="font-serif text-2xl font-light text-navy">
                   Pause to Power Pathway®
@@ -367,6 +381,20 @@ export default function Home() {
             <ScrollReveal delay={200}>
               <div className="bg-white p-8 rounded-lg space-y-4 border border-gold/20 h-full">
                 <h3 className="font-serif text-2xl font-light text-navy">
+                  Retreats &amp; Experiences
+                </h3>
+                <p className="font-sans text-navy leading-relaxed">
+                  Creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
+                </p>
+                <Button href="/coaching#retreats" variant="secondary" className="w-full">
+                  Explore Retreats
+                </Button>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={250}>
+              <div className="bg-white p-8 rounded-lg space-y-4 border border-gold/20 h-full">
+                <h3 className="font-serif text-2xl font-light text-navy">
                   Power In The Pause Journal
                 </h3>
                 <p className="font-sans text-navy leading-relaxed">
@@ -374,20 +402,6 @@ export default function Home() {
                 </p>
                 <Button href="/shop/gratitude-journal" variant="secondary" className="w-full">
                   Explore the Journal
-                </Button>
-              </div>
-            </ScrollReveal>
-
-            <ScrollReveal delay={300}>
-              <div className="bg-white p-8 rounded-lg space-y-4 border border-gold/20 h-full">
-                <h3 className="font-serif text-2xl font-light text-navy">
-                  The Activation Deck
-                </h3>
-                <p className="font-sans text-navy leading-relaxed">
-                  Forty-four reflection cards to bring the pause into your hands, wherever you are on the journey.
-                </p>
-                <Button href="/shop/activation-deck" variant="secondary" className="w-full">
-                  Explore the Deck
                 </Button>
               </div>
             </ScrollReveal>

@@ -151,6 +151,28 @@ export default function Coaching() {
         </div>
       </Section>
 
+      <Section background="cream" id="retreats">
+        <div className="relative">
+          <DecorativeCircles count={6} />
+          <h2 className="text-3xl md:text-4xl font-serif font-light mb-8 max-w-2xl">Retreats &amp; Experiences</h2>
+
+          <div className="prose prose-lg max-w-2xl space-y-6 text-navy">
+            <p>
+              Creative practices, workshops and immersive experiences designed to help people pause, reconnect and see what becomes possible with a little more space.
+            </p>
+            <p>
+              Retreats and experiences bring the philosophy of Power In The Pause® into a shared setting, combining creative practice with time away from the everyday. Details of upcoming dates and locations will be announced here.
+            </p>
+          </div>
+
+          <div className="mt-8">
+            <Button href="/contact" variant="primary">
+              Get in Touch About Retreats
+            </Button>
+          </div>
+        </div>
+      </Section>
+
       <Section>
         <p className="text-center italic text-navy max-w-2xl mx-auto">
           Not sure which is right? Start with Spiral Shift® (it's free, it takes five minutes, and it will tell you more than any sales page could).{' '}
