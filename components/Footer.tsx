@@ -7,9 +7,9 @@ export function Footer() {
   return (
     <footer className="bg-navy text-cream">
       <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 mb-12">
           {/* Brand & Tagline */}
-          <div className="lg:col-span-1">
+          <div className="sm:col-span-2 lg:col-span-1">
             <Link
               href="/"
               className="text-2xl font-serif font-light tracking-wide hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded inline-block mb-4"
@@ -35,6 +35,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/art/the-art-of-pausing"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  {TRADEMARKS.artOfPausing}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/coaching"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
@@ -51,34 +59,10 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/art/the-art-of-pausing"
-                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
-                >
-                  {TRADEMARKS.artOfPausing}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/art/intuitive-art"
-                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
-                >
-                  Intuitive Art
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/resources"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
                   The Pause Library
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
-                >
-                  FAQ
                 </Link>
               </li>
               <li>
@@ -92,53 +76,87 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Shop & External Links */}
+          {/* Shop */}
           <div>
-            <h3 className="text-lg font-serif mb-4">Shop & Connect</h3>
+            <h3 className="text-lg font-serif mb-4">Shop</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link
-                  href="/shop"
-                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
-                >
-                  Shop
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/shop/activation-deck"
-                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
-                >
-                  Power In The Pause® Activation Deck
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/shop/gratitude-journal"
-                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
-                >
-                  Power In The Pause Journal
-                </Link>
-              </li>
-              <li className="pt-2">
                 <a
-                  href={LINKS.artOfPausingWebsite}
+                  href={LINKS.activationDeckProduct}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
-                  The Art of Pausing ↗
+                  Power In The Pause® Activation Deck ↗
                 </a>
               </li>
               <li>
+                {LINKS.journalAmazonProduct ? (
+                  <a
+                    href={LINKS.journalAmazonProduct}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                  >
+                    Power In The Pause Journal ↗
+                  </a>
+                ) : (
+                  <Link
+                    href="/shop/gratitude-journal"
+                    className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                  >
+                    Power In The Pause Journal
+                  </Link>
+                )}
+              </li>
+              <li>
                 <a
-                  href={LINKS.artGallery}
+                  href={LINKS.shopifyStore}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
                 >
                   Katie Cooper Art ↗
                 </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Information */}
+          <div>
+            <h3 className="text-lg font-serif mb-4">Information</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link
+                  href="/faq"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  Terms &amp; Conditions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/accessibility"
+                  className="hover:text-gold transition-colors focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy rounded"
+                >
+                  Accessibility
+                </Link>
               </li>
             </ul>
           </div>
@@ -187,11 +205,11 @@ export function Footer() {
               © {currentYear} Katie Cooper. All rights reserved.
             </p>
             <p className="text-xs opacity-75 max-w-2xl">
-              {TRADEMARKS.masterBrand}, {TRADEMARKS.artOfPausing},{' '}
-              {TRADEMARKS.coachingProgramme},{' '}
-              {TRADEMARKS.emotionalBioharmonising}, {TRADEMARKS.spiralShift},{' '}
-              {TRADEMARKS.pausePortal}, and {TRADEMARKS.threeMinuteShift} are
-              registered trademarks of Katie Cooper.
+              {TRADEMARKS.masterBrand} is a registered trademark of Katie Cooper.{' '}
+              {TRADEMARKS.artOfPausing}, {TRADEMARKS.coachingProgramme},{' '}
+              {TRADEMARKS.spiralShift}, {TRADEMARKS.pausePortal} and{' '}
+              {TRADEMARKS.threeMinuteShift} are names used within the{' '}
+              {TRADEMARKS.masterBrand} body of work.
             </p>
           </div>
         </div>

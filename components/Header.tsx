@@ -39,7 +39,6 @@ const navItems: NavItem[] = [
     ],
   },
   { label: 'The Pause Library', href: '/resources' },
-  { label: 'FAQ', href: '/faq' },
   { label: 'Contact', href: '/contact' },
 ];
 

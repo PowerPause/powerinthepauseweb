@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
+import { Button } from '@/components/ui/Button';
 import { LastUpdated } from '@/components/ui/LastUpdated';
 import { LINKS } from '@/lib/constants';
 
@@ -130,9 +131,12 @@ export default function Shop() {
       <Section background="cream">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl font-light text-navy mb-4">Different Ways to Create Space</h2>
-          <p className="font-sans text-navy/80 leading-relaxed">
+          <p className="font-sans text-navy/80 leading-relaxed mb-4">
             Whether you are drawn to a card, a journal page or an original painting, each piece begins with the same intention: to create space for reflection, connection and possibility.
           </p>
+          <Button href="/faq" variant="text">
+            Visit the FAQ
+          </Button>
         </div>
       </Section>
 

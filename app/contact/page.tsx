@@ -1,35 +1,23 @@
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
-import { Faq } from '@/components/ui/Faq';
-import { LastUpdated } from '@/components/ui/LastUpdated';
+import { Button } from '@/components/ui/Button';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Contact | Power In The Pause®',
-  description: 'Get in touch. I read everything.',
+  description: 'Get in touch about mentoring, The Art of Pausing®, retreats or a potential collaboration.',
   alternates: {
     canonical: 'https://thepowerinthepause.co.uk/contact/',
   },
   openGraph: {
     title: 'Contact | Power In The Pause®',
-    description: 'Get in touch. I read everything.',
+    description: 'Get in touch about mentoring, The Art of Pausing®, retreats or a potential collaboration.',
     url: 'https://thepowerinthepause.co.uk/contact/',
     type: 'website',
     siteName: 'Power In The Pause®',
     locale: 'en_GB',
   },
 };
-
-const faqItems = [
-  {
-    question: 'What can I contact Katie about?',
-    answer: 'Questions about the work, the app, coaching, or a piece of art.',
-  },
-  {
-    question: 'Does Katie reply personally?',
-    answer: 'Yes. Katie reads every message personally.',
-  },
-];
 
 export default function Contact() {
   return (
@@ -39,9 +27,14 @@ export default function Contact() {
           <h1 className='font-serif text-4xl md:text-5xl text-navy mb-6 leading-tight'>
             Contact
           </h1>
-          <p className='font-sans text-lg text-navy/70 max-w-65ch leading-relaxed'>
-            Whether you have a question about the work, the app, coaching, or a piece of art, write to me. I read everything.
-          </p>
+          <div className='font-sans text-lg text-navy/70 leading-relaxed space-y-4'>
+            <p>
+              Whether you have a question about Power In The Pause®, The Art of Pausing®, mentoring, retreats or a potential collaboration, you are very welcome to get in touch.
+            </p>
+            <p>
+              Please use the form below and share a little about what you are looking for. I read every message and will reply as soon as I can.
+            </p>
+          </div>
         </div>
 
         <div className='mb-10 md:mb-12 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
@@ -50,7 +43,7 @@ export default function Contact() {
 
         <div className='bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
           <p className='font-sans text-navy mb-2'>
-            Or email directly:
+            Prefer to email directly?
           </p>
           {CONTACT.email ? (
             <a
@@ -64,10 +57,11 @@ export default function Contact() {
           )}
         </div>
 
-        <div className='mt-10 md:mt-12 bg-white px-6 md:px-8 py-8 md:py-12 rounded'>
-          <Faq items={faqItems} />
-          <LastUpdated date="July 2026" />
-        </div>
+        <p className='mt-10 text-center'>
+          <Button href='/faq' variant='text'>
+            Have a question before you write? Visit the FAQ
+          </Button>
+        </p>
       </div>
     </main>
   );

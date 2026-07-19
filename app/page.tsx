@@ -5,6 +5,7 @@ import { Section } from '@/components/ui/Section';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { TestimonialCarousel } from '@/components/ui/TestimonialCarousel';
+import { ShimmerWordmark } from '@/components/ui/ShimmerWordmark';
 
 export const metadata: Metadata = {
   title: 'Power In The Pause® | A philosophy for modern life',
@@ -59,16 +60,9 @@ export default function Home() {
       <section className="min-h-[75vh] flex flex-col items-center justify-start pt-16 md:pt-20 pb-12 bg-cream px-6 text-center">
         <h1 className="sr-only">Power In The Pause®</h1>
 
-        <ScrollReveal>
+        <ScrollReveal className="w-full">
           <div className="mb-6 max-w-[39.2rem] mx-auto">
-            <Image
-              src="/images/power-in-the-pause-gold.png"
-              alt="Power In The Pause®"
-              width={1600}
-              height={358}
-              className="w-full h-auto"
-              priority
-            />
+            <ShimmerWordmark />
           </div>
         </ScrollReveal>
 

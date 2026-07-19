@@ -293,6 +293,11 @@ export default function Retreats() {
 
       <Section background="cream">
         <Faq items={faqItems} />
+        <p className="mt-6">
+          <Button href="/faq" variant="text">
+            Visit the full FAQ
+          </Button>
+        </p>
       </Section>
 
       <Section background="navy" className="py-16 md:py-20">

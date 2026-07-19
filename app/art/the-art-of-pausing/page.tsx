@@ -291,6 +291,11 @@ export default function ArtOfPausing() {
 
       <Section background="cream">
         <Faq items={faqItems} />
+        <p className="mt-6">
+          <Button href="/faq" variant="text">
+            Visit the full FAQ
+          </Button>
+        </p>
         <LastUpdated date="July 2026" />
       </Section>
     </>
