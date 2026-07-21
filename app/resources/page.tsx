@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
+import { KitFormEmbed } from '@/components/ui/KitFormEmbed';
 import { LastUpdated } from '@/components/ui/LastUpdated';
 import { LINKS, TRADEMARKS } from '@/lib/constants';
 
@@ -79,9 +80,7 @@ export default function ThePauseLibrary() {
             <p>The collection may include grounding practices, intentional breath, birdsong and nature-based pauses, simple rituals and short reflective audios.</p>
           </div>
           <p className='font-sans text-sm text-navy/60 mb-4'>Coming soon. Join the mailing list to be the first to know.</p>
-          <Button href={LINKS.mailingListSignup} variant='secondary'>
-            Join the Mailing List
-          </Button>
+          <KitFormEmbed uid='f2b6029799' src={LINKS.mailingListEmbedSrc} />
         </section>
 
         <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
@@ -91,9 +90,8 @@ export default function ThePauseLibrary() {
           <p className='font-sans text-navy/80 leading-relaxed mb-5'>
             Short reflections, practical ideas and thoughtful explorations of what it means to create more space in modern life, on attention and awareness, creativity and wellbeing, self-trust, decision-making, emotional patterns, living and working with greater intention, the science behind creative practice, and what becomes possible when we stop pushing.
           </p>
-          <Button href={LINKS.mailingListSignup} variant='secondary'>
-            Join the Mailing List
-          </Button>
+          <p className='font-sans text-sm text-navy/60 mb-4'>Join the mailing list to hear when new reflections are published.</p>
+          <KitFormEmbed uid='f2b6029799' src={LINKS.mailingListEmbedSrc} />
         </section>
 
         <section className='mb-8 bg-white px-6 md:px-8 py-8 md:py-10 rounded'>
