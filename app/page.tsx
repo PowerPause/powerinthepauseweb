@@ -6,6 +6,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { DecorativeCircles } from '@/components/ui/DecorativeCircles';
 import { TestimonialCarousel } from '@/components/ui/TestimonialCarousel';
 import { ShimmerWordmark } from '@/components/ui/ShimmerWordmark';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -390,6 +391,10 @@ export default function Home() {
             </ScrollReveal>
           </div>
         </div>
+      </Section>
+
+      <Section background="cream">
+        <LastUpdated date="July 2026" />
       </Section>
 
       {/* Closing Line Section */}

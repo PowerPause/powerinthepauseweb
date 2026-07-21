@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { FaqAccordionGroups } from '@/components/ui/FaqAccordion';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { faqGroupsToSchema } from '@/lib/faq';
 import { JsonLd } from '@/components/JsonLd';
 import { LINKS, TRADEMARKS } from '@/lib/constants';
@@ -130,7 +131,7 @@ const faqGroups = [
       },
       {
         question: `How do I receive the ${TRADEMARKS.spiralShift}?`,
-        answer: 'Enter your email address on The Pause Library page. The practice will then be sent directly to your inbox.',
+        answer: 'Follow the link on The Pause Library page and enter your email address there. The practice will then be sent directly to your inbox.',
       },
       {
         question: `Is the ${TRADEMARKS.spiralShift} part of the app?`,
@@ -196,6 +197,10 @@ export default function FaqPage() {
         </div>
 
         <JsonLd data={faqGroupsToSchema(faqGroups)} />
+
+        <div className="mt-10 bg-white px-6 md:px-8 py-6 rounded">
+          <LastUpdated date="July 2026" />
+        </div>
 
         <div className="mt-10 bg-navy text-cream px-6 md:px-8 py-10 rounded text-center">
           <h2 className="font-serif text-2xl md:text-3xl mb-3">Still have a question?</h2>

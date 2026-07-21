@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -42,6 +43,10 @@ export default function Accessibility() {
           <Button href="/contact" variant="secondary">
             Contact Katie
           </Button>
+        </div>
+
+        <div className="mt-10 bg-white px-6 md:px-8 py-6 rounded">
+          <LastUpdated date="July 2026" />
         </div>
       </div>
     </main>

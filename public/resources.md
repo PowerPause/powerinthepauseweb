@@ -9,7 +9,7 @@ The Pause Library is a growing collection of free practices, reflections and use
 
 A free five-minute creative practice. All you need is a pen, a piece of paper and five quiet minutes. As you follow the spiral, your attention moves away from repetitive thinking and onto the page. No artistic ability is needed.
 
-Enter your email on the Pause Library page and Spiral Shift® is yours.
+Follow the link on the Pause Library page to receive Spiral Shift®.
 
 ## Free Audio Practices
 
@@ -17,7 +17,7 @@ A small collection of guided audio practices to support grounding, reflection an
 
 ## Notes on Pausing
 
-Short reflections and practical ideas on attention, creativity, wellbeing, self-trust and living with greater intention. Coming soon.
+Short reflections and practical ideas on attention, creativity, wellbeing, self-trust and living with greater intention. Join the mailing list to hear when new reflections are published.
 
 ## The Art of Pausing® app
 

@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { Section } from '@/components/ui/Section';
 import { LastUpdated } from '@/components/ui/LastUpdated';
+import { JsonLd } from '@/components/JsonLd';
 import { LINKS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -20,9 +21,32 @@ export const metadata: Metadata = {
   },
 };
 
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Power In The Pause Journal',
+  description: 'A daily practice for reflection, gratitude and intentional living.',
+  brand: {
+    '@type': 'Brand',
+    name: 'Power In The Pause®',
+  },
+  ...(LINKS.journalAmazonProduct && {
+    offers: {
+      '@type': 'Offer',
+      url: LINKS.journalAmazonProduct,
+      availability: 'https://schema.org/InStock',
+      seller: {
+        '@type': 'Organization',
+        name: 'Amazon',
+      },
+    },
+  }),
+};
+
 export default function PowerInThePauseJournal() {
   return (
     <>
+      <JsonLd data={productSchema} />
       <div className="w-full h-96 md:h-[500px] relative overflow-hidden">
         <Image
           src="/images/power-in-the-pause-journal.jpg"

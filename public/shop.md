@@ -9,7 +9,7 @@ A 44-card deck created to offer a simple point of reflection whenever you need c
 
 ## Power In The Pause Journal
 
-A daily practice for reflection, gratitude and intentional living. Available on Amazon (coming soon). [Learn more](https://thepowerinthepause.co.uk/shop/gratitude-journal/)
+A daily practice for reflection, gratitude and intentional living. Available to buy on Amazon. [Learn more](https://thepowerinthepause.co.uk/shop/gratitude-journal/)
 
 ## Katie Cooper Art
 

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 import { Button } from '@/components/ui/Button';
+import { LastUpdated } from '@/components/ui/LastUpdated';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -62,6 +63,10 @@ export default function Contact() {
             Have a question before you write? Visit the FAQ
           </Button>
         </p>
+
+        <div className='mt-10 bg-white px-6 md:px-8 py-6 rounded'>
+          <LastUpdated date="July 2026" />
+        </div>
       </div>
     </main>
   );
